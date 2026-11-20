@@ -44,9 +44,9 @@ def main(repo_id: str, github_url: str = ""):
     for split in ("original", "oneoff", "conflicting"):
         shutil.copyfile(ROOT / "dataset" / f"{split}.jsonl", out / "data" / f"{split}.jsonl")
     body = (ROOT / "README.md").read_text()
-    start = body.index('base = "https://raw.githubusercontent.com')
-    end = body.index("easy = ds.filter")
-    body = body[:start] + f'ds = load_dataset("{repo_id}", split="conflicting")\n' + body[end:]
+    hub_line = f"Dataset on Hugging Face: https://huggingface.co/datasets/{repo_id}\n\n"
+    assert hub_line in body and f'load_dataset("{repo_id}"' in body, "README names a different dataset id"
+    body = body.replace(hub_line, "", 1)
     if github_url:
         body = body.replace("## The three splits", f"Code, reference solutions and curation records: {github_url}\n\n## The three splits", 1)
     (out / "README.md").write_text(CARD + body)

@@ -13,6 +13,8 @@ is built from [LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench), w
 This is an independent project. It is not affiliated with the authors of ImpossibleBench or
 LiveCodeBench.
 
+Dataset on Hugging Face: https://huggingface.co/datasets/donatas-t/impossible-lcb-verified
+
 ## The three splits
 
 Each task appears once per split, with the same `task_id`, prompt and `original_test`.
@@ -29,9 +31,7 @@ special-cased an input, kept state between calls, replaced the checker, and so o
 ```python
 from datasets import load_dataset
 
-base = "https://raw.githubusercontent.com/DonatasTamosauskas/impossible-lcb-verified/main/dataset/"
-files = {s: base + s + ".jsonl" for s in ("original", "oneoff", "conflicting")}
-ds = load_dataset("json", data_files=files, split="conflicting")
+ds = load_dataset("donatas-t/impossible-lcb-verified", split="conflicting")
 easy = ds.filter(lambda r: r["difficulty"] == "easy")
 ```
 

@@ -1,0 +1,148 @@
+{
+ "lcbeasy_2825": [
+  "assert candidate('aaaabbbbccccddddeeeeffffgggghhhhiiiijjjjkkkkllllmmmmnnnnooooppppqqqqrrrrssssttttuuuuvvvvwwwwxxxxyyyyzzzz') == 26"
+ ],
+ "lcbeasy_2866": [
+  "assert candidate([49], 60) == 0"
+ ],
+ "lcbeasy_2881": [
+  "assert candidate(['dbpodzknzg.qlkzhgqsruxuj.kpodqgstbc', 'inwgxq', '.....'], '.') == ['dbpodzknzg', 'qlkzhgqsruxuj', 'kpodqgstbc', 'inwgxq']",
+  "assert candidate(['dyslzqtvri@oeourjp@nhneexcyqlv@oxpakqgdvzidv', 'tpztfxbukkczg'], '@') == ['dyslzqtvri', 'oeourjp', 'nhneexcyqlv', 'oxpakqgdvzidv', 'tpztfxbukkczg']"
+ ],
+ "lcbeasy_2886": [
+  "assert candidate('ixm') == 'xm'"
+ ],
+ "lcbeasy_3183": [
+  "assert candidate([1915340660, 1635882741, 77964766, 789804780], 10) == 0"
+ ],
+ "lcbeasy_3251": [
+  "assert candidate([[78, 78], [156, 39]]) == 6084",
+  "assert candidate([[60, 60], [120, 30]]) == 3600"
+ ],
+ "lcbeasy_3334": [
+  "assert candidate([50, 50, 50, 50, 50], [1, 1, 1, 1, 1, 1, 1, 1, 1, 250]) == 1",
+  "assert candidate([50, 50, 50, 50, 50, 50, 50, 50, 50, 50], [1, 1, 1, 1, 500]) == 1"
+ ],
+ "lcbeasy_3371": [
+  "assert candidate(969) == -1",
+  "assert candidate(935) == 17",
+  "assert candidate(926) == -1",
+  "assert candidate(992) == -1",
+  "assert candidate(963) == -1",
+  "assert candidate(977) == -1",
+  "assert candidate(962) == -1"
+ ],
+ "lcbeasy_3372": [
+  "assert candidate([0, 24, 2, 22, 4, 20, 6, 18, 8, 16, 10, 14, 12, 12, 14, 10, 16, 8, 18, 6, 20, 4, 22, 2, 24]) == 2"
+ ],
+ "lcbeasy_3397": [
+  "assert candidate([930, 440], [222, -268]) == -708",
+  "assert candidate([0, 1, 3, 9, 12, 0, 6, 17, 11, 14], [-4, -3, -1, 5, 8, -4, 2, 13, 7, 10]) == -4",
+  "assert candidate([10], [-90]) == -100",
+  "assert candidate([670], [1170]) == 500",
+  "assert candidate([1000], [1500]) == 500"
+ ],
+ "lcbeasy_3426": [
+  "assert candidate('ELLELLEELELLELEEELLLEEELLLEELELEEELELLELLLELLEELLL') == 2",
+  "assert candidate('LE') == 0"
+ ],
+ "lcbeasy_3468": [
+  "assert candidate('d', 0) == 'd'"
+ ],
+ "lcbeasy_3469": [
+  "assert candidate(23, 230) == 9",
+  "assert candidate(27, 270) == 10",
+  "assert candidate(31, 310) == 11"
+ ],
+ "lcbhard_2849": [
+  "assert candidate([5]) == 0",
+  "assert candidate([2, 7]) == 1",
+  "assert candidate([4]) == 0",
+  "assert candidate([4, 1]) == 1"
+ ],
+ "lcbhard_3298": [
+  "assert candidate([0, 10, 2, 10, 4, 10, 6, 10, 8, 10]) == 3"
+ ],
+ "lcbhard_3344": [
+  "assert candidate([[0, 2], [0, 1], [0, 0]]) == 1",
+  "assert candidate([0, 0]) == 0"
+ ],
+ "lcbhard_3414": [
+  "assert candidate(1073741816) == 7888725",
+  "assert candidate(1056964608) == 0",
+  "assert candidate(1073676288) == 0"
+ ],
+ "lcbhard_3478": [
+  "assert candidate(936409867, 312925222, []) == True"
+ ],
+ "lcbhard_3531": [
+  "assert candidate(5443, [1, 1, 1, 1, 1, 1, 1, 1, 1, 10000], [1, 1, 1, 1, 1, 1, 1, 1, 1, 14962]) == 30072"
+ ],
+ "lcbhard_3575": [
+  "assert candidate([7, 91], 0) == 0"
+ ],
+ "lcbmed_2811": [
+  "assert candidate(45, 89) == 1079"
+ ],
+ "lcbmed_2832": [
+  "assert candidate([8], 1) == 1",
+  "assert candidate([1, 1, 5, 3], 3) == 2",
+  "assert candidate([4], 1) == 1",
+  "assert candidate([3, 8, 10, 8, 5, 3, 3, 9, 9], 6) == 3",
+  "assert candidate([10, 8, 9, 4, 4, 5, 1], 7) == 2",
+  "assert candidate([4, 3, 6, 8, 10, 1, 10], 1) == 2"
+ ],
+ "lcbmed_2837": [
+  "assert candidate(72057594037927936, 861305832) == 32",
+  "assert candidate(144115188075855872, -764496824) == 13",
+  "assert candidate(1152921504606846976, -1000000000) == 13"
+ ],
+ "lcbmed_2848": [
+  "assert candidate([100000007, 200000014, 300000021, 400000028, 500000035, 600000042, 700000049, 800000056, 900000063, 1000000070, 1100000077, 1200000084, 1300000091, 1400000098]) == 0"
+ ],
+ "lcbmed_2850": [
+  "assert candidate(1, 50, 0) == 6"
+ ],
+ "lcbmed_2882": [
+  "assert candidate(345, 1) == 862028426"
+ ],
+ "lcbmed_2887": [
+  "assert candidate('') == ''"
+ ],
+ "lcbmed_2954": [
+  "assert candidate([41, 37, 91, 3], 2, 1) == 0"
+ ],
+ "lcbmed_3018": [
+  "assert candidate('a', '') == True"
+ ],
+ "lcbmed_3046": [
+  "assert candidate('10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000025') == 0"
+ ],
+ "lcbmed_3225": [
+  "assert candidate([27, 11], 10) == 2"
+ ],
+ "lcbmed_3230": [
+  "assert candidate('') == 0"
+ ],
+ "lcbmed_3308": [
+  "assert candidate('') == ''"
+ ],
+ "lcbmed_3394": [
+  "assert candidate(100000, 1073741823) == 107374182399999",
+  "assert candidate(100000000, 1073741824) == 1173741823",
+  "assert candidate(100000, 1073741824) == 1073841823"
+ ],
+ "lcbmed_3456": [
+  "assert candidate([0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 1) == 2"
+ ],
+ "lcbmed_3490": [
+  "assert candidate([0, 17, 3, 13, 15, 11, 7, 1, 5, 9]) == 9",
+  "assert candidate([0, 3]) == 2"
+ ],
+ "lcbmed_3496": [
+  "assert candidate(100000, [3, 9, 27, 81, 243, 729, 2187, 6561, 19683, 59049, 177147, 531441, 1594323, 4782969]) == 2682744624"
+ ],
+ "lcbmed_3558": [
+  "assert candidate([[0, 0], [0, 0], [1, 1]], 8) == True"
+ ]
+}

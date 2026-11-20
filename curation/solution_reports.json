@@ -1,0 +1,3089 @@
+{
+ "lcbeasy_2727": {
+  "attempts": 1,
+  "notes": "Count entries whose age digits (chars 11-12) exceed 60.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_2756": {
+  "attempts": 1,
+  "notes": "Sum the two smallest prices; return money minus the sum if affordable, else money.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_2777": {
+  "attempts": 1,
+  "notes": "Precompute distinct counts of suffixes, then sweep prefixes with a set and subtract.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_2785": {
+  "attempts": 1,
+  "notes": "Answer is index(1) + (n-1-index(n)), minus 1 if 1 sits after n.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_2791": {
+  "attempts": 1,
+  "notes": "Simulate passes with step i*k mod n until a repeat, then list unvisited friends.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_2800": {
+  "attempts": 1,
+  "notes": "Stack scan removing AB and CD pairs as they form; return stack size.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_2812": {
+  "attempts": 1,
+  "notes": "Return num + 2*t.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_2816": {
+  "attempts": 1,
+  "notes": "Two pointers from the ends, setting each mirrored pair to the smaller character.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_2819": {
+  "attempts": 1,
+  "notes": "Strip trailing '0' characters with rstrip.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_2824": {
+  "attempts": 1,
+  "notes": "Concatenate n, 2n, 3n and check the result is 9 chars with digit set exactly 1-9.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_2825": {
+  "attempts": 1,
+  "notes": "Answer is the number of distinct characters.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_2831": {
+  "attempts": 1,
+  "notes": "Count first digits seen so far; for each last digit add counts of coprime first digits.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_2844": {
+  "attempts": 1,
+  "notes": "Sum squares of nums[i-1] for each i dividing n.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_2847": {
+  "attempts": 1,
+  "notes": "Scan with a set of unmatched words; a word whose reverse is in the set forms a pair.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_2857": {
+  "attempts": 1,
+  "notes": "Simulate liter by liter, refueling 1 from the additional tank every 5 liters used; distance is 10 times liters used.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_2866": {
+  "attempts": 1,
+  "notes": "For each even start within threshold, extend while parity alternates and values are within threshold; take the max length.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_2870": {
+  "attempts": 1,
+  "notes": "From each i with diff +1, extend while nums[j+1]==nums[j-1]; track max length else -1.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_2876": {
+  "attempts": 1,
+  "notes": "Count hours >= target.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_2881": {
+  "attempts": 1,
+  "notes": "Split each word by separator and keep non-empty pieces in order.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_2886": {
+  "attempts": 1,
+  "notes": "Simulate typing, reversing the buffer on each 'i'.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_2892": {
+  "attempts": 1,
+  "notes": "Sorted nums must equal [1..n-1] plus two n's where n=max.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_2902": {
+  "attempts": 1,
+  "notes": "Brute-force all pairs with equal max digit, keep max sum else -1.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_2917": {
+  "attempts": 1,
+  "notes": "Brute-force count of pairs with sum < target.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_2955": {
+  "attempts": 1,
+  "notes": "Round up half to nearest 10 via (x+5)//10*10 and subtract from 100.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_2977": {
+  "attempts": 1,
+  "notes": "Join first characters of words and compare to s.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_2998": {
+  "attempts": 1,
+  "notes": "Brute-force over range, compare half digit sums for even-length numbers.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_2999": {
+  "attempts": 1,
+  "notes": "Even-index and odd-index characters must match as multisets.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3019": {
+  "attempts": 1,
+  "notes": "abs(count L - count R) + count of underscores.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3034": {
+  "attempts": 1,
+  "notes": "Union of integer points in all intervals via a set.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3044": {
+  "attempts": 1,
+  "notes": "Scan from the end collecting values <= k until all k are seen.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3045": {
+  "attempts": 1,
+  "notes": "Try each right rotation and compare to sorted array.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3055": {
+  "attempts": 1,
+  "notes": "Put all but one '1' first, then zeros, then a final '1'.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3093": {
+  "attempts": 1,
+  "notes": "Sum nums[i] where popcount(i)==k.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3154": {
+  "attempts": 1,
+  "notes": "Single pass tracking prefix max and max (nums[i]-nums[j]); best = max over md*x.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3163": {
+  "attempts": 1,
+  "notes": "For each start, extend end with a set and add squared distinct count.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3164": {
+  "attempts": 1,
+  "notes": "Track integer list and consecutive prev count k; emit nums[-k] or -1.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3172": {
+  "attempts": 1,
+  "notes": "Closed form: total sum minus twice the sum of multiples of m.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3176": {
+  "attempts": 1,
+  "notes": "For each middle j take min of left and right; if both smaller, candidate sum.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3183": {
+  "attempts": 1,
+  "notes": "For each bit 0..31 set it in result if at least k numbers have it.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3188": {
+  "attempts": 1,
+  "notes": "Champion is the team whose column in grid has no 1s.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3193": {
+  "attempts": 1,
+  "notes": "Brute-force all pairs satisfying |x-y|<=min(x,y), take max XOR.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3194": {
+  "attempts": 1,
+  "notes": "Indices of words containing x, ascending (statement allows any order, tests accepted ascending).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": false
+ },
+ "lcbeasy_3199": {
+  "attempts": 1,
+  "notes": "Enumerate a,b and check the third child's count is within 0..limit.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3206": {
+  "attempts": 1,
+  "notes": "Count elements of each array present in the other's set.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3207": {
+  "attempts": 1,
+  "notes": "Common prefix length k; -1 if 0, else total length minus 3k.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3220": {
+  "attempts": 1,
+  "notes": "Track tested count c; device is tested if value - c > 0.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3221": {
+  "attempts": 1,
+  "notes": "Interior indices strictly greater than both neighbors, ascending (any order allowed by statement).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": false
+ },
+ "lcbeasy_3226": {
+  "attempts": 1,
+  "notes": "Sort, then swap each adjacent pair.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3227": {
+  "attempts": 1,
+  "notes": "Track seen set to find repeated value, then first absent value in 1..n^2.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3236": {
+  "attempts": 1,
+  "notes": "Sum longest sequential prefix, then increment until the sum is not in nums.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3242": {
+  "attempts": 1,
+  "notes": "Count frequencies and sum the counts equal to the maximum.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3246": {
+  "attempts": 1,
+  "notes": "True iff at least two even numbers exist (OR of evens keeps a trailing zero).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3251": {
+  "attempts": 1,
+  "notes": "Take max of (squared diagonal, area) tuples and return the area.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3252": {
+  "attempts": 1,
+  "notes": "Brute force every subarray, remove it, and check the remainder is strictly increasing.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3263": {
+  "attempts": 1,
+  "notes": "First element plus the two smallest of the remaining elements.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3309": {
+  "attempts": 1,
+  "notes": "Brute force all i<j pairs checking startswith and endswith.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3311": {
+  "attempts": 1,
+  "notes": "Running prefix sum, count times it equals zero.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3312": {
+  "attempts": 1,
+  "notes": "Lowercase the string and count adjacent differing characters.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3320": {
+  "attempts": 1,
+  "notes": "Target is the first pair sum; count consecutive pairs with that sum until one differs.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3324": {
+  "attempts": 1,
+  "notes": "Possible iff no value occurs more than twice.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3331": {
+  "attempts": 1,
+  "notes": "Count elements less than k.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3334": {
+  "attempts": 1,
+  "notes": "Greedily take largest capacities until total capacity covers total apples.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3347": {
+  "attempts": 1,
+  "notes": "Simulate the two arrays by comparing last elements, then concatenate.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3349": {
+  "attempts": 1,
+  "notes": "Sliding window keeping each character count at most 2.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3353": {
+  "attempts": 1,
+  "notes": "Check whether any length-2 substring of s occurs in reversed s.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3361": {
+  "attempts": 1,
+  "notes": "Greedy per digit: hour tens 1 if units is ?/0/1 else 0, units 1 if tens is 1 else 9, minutes 59.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3367": {
+  "attempts": 1,
+  "notes": "Replace each number with its max digit repeated len times and sum.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3371": {
+  "attempts": 1,
+  "notes": "Compute digit sum; return it if x divisible by it else -1.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3372": {
+  "attempts": 1,
+  "notes": "Single pass tracking current increasing and decreasing run lengths.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3379": {
+  "attempts": 1,
+  "notes": "Sum of absolute ASCII differences of adjacent characters.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3381": {
+  "attempts": 1,
+  "notes": "For each start, extend with running OR until >= k, track the minimum length (O(n^2), n<=50).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3396": {
+  "attempts": 1,
+  "notes": "Check length>=3, all ASCII alphanumeric, and at least one vowel and one consonant.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3397": {
+  "attempts": 1,
+  "notes": "x = min(nums2) - min(nums1).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3398": {
+  "attempts": 1,
+  "notes": "For each of four 2x2 blocks, return true if black count is not exactly 2.",
+  "statement_issue": "Examples reference images that are absent in the text, but the grids are given in the Input lines so nothing is missing.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3408": {
+  "attempts": 1,
+  "notes": "Count letters present in both lowercase and uppercase.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3412": {
+  "attempts": 1,
+  "notes": "Sum of |i - t.index(s[i])| over s.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3421": {
+  "attempts": 1,
+  "notes": "Count residues mod 24 with a running counter of complementary residues.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3426": {
+  "attempts": 1,
+  "notes": "Maximum running occupancy (+1 for E, -1 for L).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3428": {
+  "attempts": 1,
+  "notes": "XOR each value the second time it is seen.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3429": {
+  "attempts": 1,
+  "notes": "All adjacent pairs have differing parity bit.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3446": {
+  "attempts": 1,
+  "notes": "Count pairs where nums1[i] % (nums2[j]*k) == 0.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3447": {
+  "attempts": 1,
+  "notes": "Stack: push letters, pop on digit.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3450": {
+  "attempts": 1,
+  "notes": "Position is k mod 2(n-1), reflected if beyond n-1.",
+  "statement_issue": "Examples rely on tables whose content is missing (images/tables render as bare lists), but the text rules fully specify the answer.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3463": {
+  "attempts": 1,
+  "notes": "Count each circular triple where the middle differs from both neighbours.",
+  "statement_issue": "Example explanations refer to images that are missing; text is sufficient.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3468": {
+  "attempts": 1,
+  "notes": "Result[i] = s[(i+k) % n].",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3469": {
+  "attempts": 1,
+  "notes": "Simulate greedily for both starting colors, take max height.",
+  "statement_issue": "Examples refer to missing images; text is sufficient.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3476": {
+  "attempts": 1,
+  "notes": "Count elements not divisible by 3 (each needs exactly 1 op).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3484": {
+  "attempts": 1,
+  "notes": "Swap the first adjacent same-parity pair where s[i] > s[i+1]; else unchanged.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3508": {
+  "attempts": 1,
+  "notes": "If n&k==k return popcount(n^k) else -1.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3511": {
+  "attempts": 1,
+  "notes": "Turns t=min(x,y//4); Alice wins iff t is odd.",
+  "statement_issue": "Function is named losingPlayer but the statement asks for the winner (examples confirm the winner is returned); misleading name.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3515": {
+  "attempts": 1,
+  "notes": "Alice wins iff sum of single-digit numbers != sum of double-digit numbers.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3519": {
+  "attempts": 1,
+  "notes": "Count (player,color) picks; count players with some color count > player index.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3533": {
+  "attempts": 1,
+  "notes": "Simulate row/col moves, return r*n+c.",
+  "statement_issue": "Example explanations rely on images/grid renderings that are garbled in text, but the rules are clear.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3543": {
+  "attempts": 1,
+  "notes": "Sliding window: for each right end, shrink left until zeros<=k or ones<=k, add window length.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3553": {
+  "attempts": 1,
+  "notes": "Compare parity of column index plus row number.",
+  "statement_issue": "Refers to a chessboard image for reference (not present), though the examples imply a1 is black and the parity rule is determinable.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3555": {
+  "attempts": 1,
+  "notes": "Min-heap of (value, index), pop, multiply, push back k times.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3567": {
+  "attempts": 1,
+  "notes": "Join the binary strings of year, month and day with '-'.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3568": {
+  "attempts": 1,
+  "notes": "Zero-pad to 4 digits, take the digit-wise minimum, convert to int.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3600": {
+  "attempts": 1,
+  "notes": "The k-th character is 'a' shifted by popcount(k-1), modulo 26.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3605": {
+  "attempts": 1,
+  "notes": "Even n gives -1. For odd n with t trailing ones, ans = n - 2^(t-1).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3606": {
+  "attempts": 1,
+  "notes": "Minimum of the digit sums.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3610": {
+  "attempts": 1,
+  "notes": "For each window, count occurrences, sort by (count desc, value desc), and sum value*count over the top x.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3612": {
+  "attempts": 1,
+  "notes": "For each start a, check that nums[a..a+k-1] and nums[a+k..a+2k-1] are both strictly increasing.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3616": {
+  "attempts": 1,
+  "notes": "Simulate the process from every zero position in both directions, and count the runs that end with all zeros.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3617": {
+  "attempts": 1,
+  "notes": "1 + number of adjacent equal pairs.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3621": {
+  "attempts": 1,
+  "notes": "-1 if any num < k, else count of distinct values greater than k.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3625": {
+  "attempts": 1,
+  "notes": "Simulate removing 10,9,... stones; Alice wins if an odd number of moves were made.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3626": {
+  "attempts": 1,
+  "notes": "Brute-force increment from n until digit product divisible by t.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3632": {
+  "attempts": 1,
+  "notes": "Scan press durations, track max with smallest index tie-break.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3636": {
+  "attempts": 1,
+  "notes": "Compare digit sums at even and odd indices.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3644": {
+  "attempts": 1,
+  "notes": "Brute-force all subarrays with length in [l,r], take the minimum positive sum or -1.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3651": {
+  "attempts": 1,
+  "notes": "result[i] = nums[(i + nums[i]) % n], which also gives nums[i] when it is 0.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3656": {
+  "attempts": 1,
+  "notes": "Scan from the end to find the last index that repeats an element seen later, answer i//3+1, else 0.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3676": {
+  "attempts": 1,
+  "notes": "Grow x=2x+1 from 1 until x>=n.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3684": {
+  "attempts": 1,
+  "notes": "Split p at '*' into prefix a and suffix b; find a at i then b at or after i+len(a).",
+  "statement_issue": "Minor: p='*' case (empty match vs the non-empty substring rule) is not explicit; tests accept true.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3685": {
+  "attempts": 1,
+  "notes": "Count windows of 3 where 2*(a+c)==b.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3702": {
+  "attempts": 1,
+  "notes": "Brute force all subarrays with running product, gcd and lcm, keep the longest with prod==lcm*gcd.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3704": {
+  "attempts": 1,
+  "notes": "Left-right difference has the parity of the total sum, so return n-1 if total is even else 0.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3705": {
+  "attempts": 1,
+  "notes": "Count, per distinct value, the number of size-k windows containing it; return the max with count 1, else -1.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3708": {
+  "attempts": 1,
+  "notes": "Flatten rows in boustrophedon order and take every second element.",
+  "statement_issue": "Examples refer to images (explanations are empty), but the text is sufficient.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3709": {
+  "attempts": 1,
+  "notes": "Scan runs of equal characters; true if any maximal run has length exactly k.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3723": {
+  "attempts": 1,
+  "notes": "Sum nums[i] when it is strictly greater than nums[i-k] and nums[i+k] wherever those indices exist.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3731": {
+  "attempts": 1,
+  "notes": "Sum slice nums[max(0,i-nums[i]):i+1] for each i.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3736": {
+  "attempts": 1,
+  "notes": "Count digits; return first adjacent distinct pair where each digit's count equals its value.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3747": {
+  "attempts": 1,
+  "notes": "Max of absolute differences over all circular adjacent pairs.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3753": {
+  "attempts": 1,
+  "notes": "Max odd frequency minus min even frequency.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3768": {
+  "attempts": 1,
+  "notes": "Simulate pairwise sums mod 10 until two digits remain, compare them.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3773": {
+  "attempts": 1,
+  "notes": "Simulate: while not non-decreasing, merge leftmost minimum-sum adjacent pair and count operations.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3778": {
+  "attempts": 1,
+  "notes": "Count odds, return zeros then ones.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3788": {
+  "attempts": 1,
+  "notes": "Sum of distinct positive values, or max element if none are positive.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3799": {
+  "attempts": 1,
+  "notes": "Enumerate 3-permutations of indices, keep no-leading-zero even numbers in a set, return its size.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3811": {
+  "attempts": 1,
+  "notes": "Sum of (26 - letter index) * (1-based position).",
+  "statement_issue": "The example tables are rendered as flattened text, but the formula is clear and consistent with the examples.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3817": {
+  "attempts": 1,
+  "notes": "Return min(n*n, maxWeight // w).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbeasy_3832": {
+  "attempts": 1,
+  "notes": "Answer is the running prefix minimum of cost.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_2757": {
+  "attempts": 1,
+  "notes": "Digit DP over prefix sums with a tight flag computes f(N) = count in [0,N]; the answer is f(num2) - f(num1) + [num1 is good] mod 1e9+7. Solution: solutions/lcbhard_2757.py",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_2784": {
+  "attempts": 1,
+  "notes": "Sort the array and treat each x as the group max. Keep a running s = sum of arr[j]*2^(i-j-1) over the smaller elements, add x^2*(x+s), then set s = 2s+x, all mod 1e9+7. Solution: solutions/lcbhard_2784.py",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_2808": {
+  "attempts": 1,
+  "notes": "0/1 knapsack where paying for wall i covers time[i]+1 walls. dp[k] is the min cost to cover at least k walls, capped at n, and the answer is dp[n]. Solution: solutions/lcbhard_2808.py",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_2827": {
+  "attempts": 1,
+  "notes": "Smallest-prime-factor sieve, then union-find joining each index to its prime factors; true if all indices end up in one component (a single element is true, any 1 with n>1 is false). 83/83 passed.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_2839": {
+  "attempts": 1,
+  "notes": "Offline: points sorted by nums1 descending and queries by x descending; a monotonic stack (nums2 rising, sum falling) answers each query by binary search on y. 15/15 passed.",
+  "statement_issue": "Minor: it calls queries '1-indexed' and says x_i == queries[i][1], y_i == queries[i][2], which contradicts queries[i] = [x_i, y_i]. The examples settle it as 0-indexed [x, y], so the task is still fair.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_2849": {
+  "attempts": 2,
+  "notes": "O(n^2): for each start index, extend to the right while tracking a seen array and the count of runs of consecutive values; the imbalance is runs-1. Attempt 1 sized the seen array by n (per the constraint) and failed on test [5]; it is now sized by max(nums). 14/14 passed.",
+  "statement_issue": "The official tests break the stated constraint 1 <= nums[i] <= nums.length. 4 of 14 cases do, e.g. [5], [4], and length-2 arrays with values 7 and 4. A solution that sizes arrays from that constraint crashes with IndexError.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_2879": {
+  "attempts": 1,
+  "notes": "Precompute the minimum semi-palindrome cost of every substring over its proper divisors d (pair mismatches inside each residue class), then partition DP over k parts.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_2884": {
+  "attempts": 1,
+  "notes": "Sliding window: for each right end, check the substrings of length up to 10 ending there against a hash set, and move the left bound past any forbidden match.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_2919": {
+  "attempts": 1,
+  "notes": "Sort ascending and keep a running sum; add a group whenever the sum reaches the triangular number (ans+1)(ans+2)/2.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_2921": {
+  "attempts": 1,
+  "notes": "Digit DP counts stepping numbers <= s (shorter lengths plus a tight/free prefix walk); answer is count(high) - count(low) + [low is stepping], mod 1e9+7.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_2952": {
+  "attempts": 1,
+  "notes": "Sort by nums2, knapsack dp[j] = max reduction with j resets (j-th reset gains a + b*j); return smallest t in 0..n with sum1 + t*sum2 - dp[t] <= x, else -1.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3017": {
+  "attempts": 1,
+  "notes": "Memoized digit DP over (pos, odd-even diff, value mod k, tight, started); answer is f(high) - f(low-1).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3024": {
+  "attempts": 1,
+  "notes": "Find rotation offsets mapping s to t (first match via find in s+s, then multiples of s's minimal rotation period); count k-step shift sequences with closed forms ((n-1)^k + (n-1)(-1)^k)/n for offset 0 and ((n-1)^k - (-1)^k)/n for a nonzero offset, mod 1e9+7.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3025": {
+  "attempts": 1,
+  "notes": "Greedy over bit counts from low to high: use an available 2^i for each set bit of target, otherwise split the nearest larger power down (cost j-i), and carry leftover pairs upward; -1 if sum(nums) < target.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3032": {
+  "attempts": 1,
+  "notes": "Binary lifting over the bits of k with rolling (next-node, path-sum) doubling arrays applied to all start nodes at once, then take the max total.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3047": {
+  "attempts": 1,
+  "notes": "For each k, sum nums at indices k*m^2 (the same square-free class, so every pairwise index product is a square) and take the max. Minor cosmetic slip, not unfair: Example 2 says 'four other' subsets but lists five. Also, 'complete' is defined over a set's elements but applied to the index set; the examples make clear that index products are meant.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3091": {
+  "attempts": 1,
+  "notes": "Bounded-knapsack count DP over distinct nonzero values, using sliding-window prefix sums per residue class mod v (capped at r); multiply by (zeros+1).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3153": {
+  "attempts": 1,
+  "notes": "The operation preserves each bit's count, so greedily build k numbers by taking one of each remaining bit per number, then sum squares mod 1e9+7.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3184": {
+  "attempts": 1,
+  "notes": "Key nums[i]-i must be non-decreasing; DP dp[i]=nums[i]+max(0, prefix-max dp over keys <= key_i) using a Fenwick max-tree on compressed keys, answer max dp. Verified PASS 15/15. Solution: solutions/lcbhard_3184.py",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3196": {
+  "attempts": 1,
+  "notes": "Sort, then use a two-pointer sliding window with prefix sums, where the cost of a window is the cost of moving every element to its median; answer is the largest window with cost <= k. Verified PASS 14/14. Solution: solutions/lcbhard_3196.py",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3203": {
+  "attempts": 1,
+  "notes": "Mirror the second half onto the first. Mismatch prefix counts must be zero outside the two query ranges (and in the gap if the ranges are disjoint). Per-letter prefix counts then check the disjoint, nested and partial-overlap cases; in partial overlap each free part must cover the other side's fixed characters, and the two leftovers must be equal. Verified PASS 15/15. Solution: solutions/lcbhard_3203.py",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3211": {
+  "attempts": 1,
+  "notes": "Greedy prefix-sum DP that keeps the minimal last-segment sum, using a monotonic deque over key pre[j]+last[j] to find the latest valid split in O(n).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3212": {
+  "attempts": 1,
+  "notes": "Merge each value's first-to-last occurrence span into B independent blocks; the answer is 2^(B-1) mod 1e9+7.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3223": {
+  "attempts": 1,
+  "notes": "Split the word wherever adjacent letters differ by more than 2; in each segment, for every distinct-letter count m in 1..26, slide a window of length m*k and count windows where exactly m letters occur exactly k times.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3224": {
+  "attempts": 1,
+  "notes": "Multinomial over gap sizes (factorials mod p) times 2^(len-1) for each inner gap; edge gaps have 1 order each.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3233": {
+  "attempts": 1,
+  "notes": "Prefix and suffix greedy states (partition count, mask, distinct count) combined per changed index with a case split; also matched brute force on 3000 random small cases.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3243": {
+  "attempts": 1,
+  "notes": "f(finish)-f(start-1), where f(x) counts prefixes p with digits <= limit and p*10^len(s)+s <= x, using a digit count up to the bound.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3261": {
+  "attempts": 1,
+  "notes": "Greedy over bits from high to low: add a bit to the forced-zero mask if a greedy left-to-right AND-segmentation needs at most k merges.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3298": {
+  "attempts": 1,
+  "notes": "Sort, then DP over values: dp[x+1]=dp[x]+1 (use +1) then dp[x]=dp[x-1]+1, answer is max dp.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3313": {
+  "attempts": 1,
+  "notes": "O(nk) DP over subarray index j with signed weight (k-j+1)*(-1)^(j+1), tracking best ending at i (extend or start new) and prefix best.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3316": {
+  "attempts": 1,
+  "notes": "Sort the array, then for each distinct pairwise difference d count the k-subsequences whose adjacent gaps are all >= d (DP over prefix sums), and sum d * (f(d) - f(next d)) mod 1e9+7.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3327": {
+  "attempts": 1,
+  "notes": "Let c = the longest run of ones, capped at 3. If c >= k the answer is k-1. If c + maxChanges >= k it is max(c-1,0) + 2(k-c). Otherwise use every change at cost 2 and find, with prefix sums, the minimum over windows of k-maxChanges consecutive ones of the sum of distances to the window median.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3344": {
+  "attempts": 2,
+  "notes": "Rotate to u=x+y and v=x-y; max distance = max(u-span, v-span). Try removing each of the 4 extreme points, using the top-2 and bottom-2 values. Official test case 19 breaks the constraints: its input is points=[0, 0] with expected 0. That is not a list of [x,y] pairs, and n < 3. The first attempt crashed on it. A guard returning 0 when len(points) <= 2 fixes it, and it is still correct semantically: with at most 2 points, removing one leaves one.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3345": {
+  "attempts": 1,
+  "notes": "Knapsack DP over sums up to k where each element either doubles the weight (outside the chosen subset) or is added to it, so dp[k] = sum of 2^(n-|S|) over subsets S with sum k. The example explanations lost their highlighting, so every subsequence prints as [1,2,3], but the definition and outputs are still clear.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3362": {
+  "attempts": 1,
+  "notes": "Binary search on the answer m, using a sliding window to count subarrays with at most m distinct values, and return the smallest m whose count reaches ceil(T/2), where T = n(n+1)/2.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3364": {
+  "attempts": 1,
+  "notes": "Segment-by-segment DP: for each right end, keep the at most ~17 distinct ANDs of subarrays ending there, each paired with the minimum previous-layer cost at its start; then cur[r+1] = that minimum for the group whose AND equals andValues[j], plus nums[r].",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3375": {
+  "attempts": 1,
+  "notes": "Binary search on the amount, counting multiples by inclusion-exclusion over subsets of coins (redundant multiples removed first, lcm terms above min(coin)*k pruned).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3376": {
+  "attempts": 1,
+  "notes": "Trie of reversed container words where each node stores the shortest, earliest index; the root holds the global shortest, and each query walks its reversed string as far as it matches.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3382": {
+  "attempts": 1,
+  "notes": "Monotonic decreasing stack of (value, count): equal values extend the count and add it to the total. Minor point: the example explanations lost their subarray highlighting, so each line shows the full array, but the statement itself is still clear.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3402": {
+  "attempts": 1,
+  "notes": "Cost as a function of target t>=max is piecewise linear (unbalanced: pair against the max deficit; balanced: T//2 pairs plus parity), so evaluate t=max and a small window around the balance point, with the single-op shortcut when n<=2 or 2*cost1<=cost2.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3411": {
+  "attempts": 1,
+  "notes": "Prefix sum of exponents over big_nums via a binary search on the number of whole integers covered (bitwise popcount and exponent counts over 1..m), plus a partial last number; the answer is pow(2, diff, mod).",
+  "statement_issue": "big_nums is 0-indexed (from the examples), and the statement never says so explicitly; the examples settle it.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3414": {
+  "attempts": 1,
+  "notes": "After j jumps with d non-consecutive downs the position is 2^j - d (0<=d<=j+1), so sum C(j+1, 2^j - k) over j.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3423": {
+  "attempts": 1,
+  "notes": "Point-update segment tree whose nodes hold 4 best sums (each endpoint excluded or free), merged so that adjacent picks are never both taken; the root's unrestricted value is added up over all queries, mod 1e9+7. Passed 27/27.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3436": {
+  "attempts": 1,
+  "notes": "Keeps the set of distinct OR values of subarrays ending at each index (at most ~30) and tracks the minimum |or - k|. Passed 3/3, but the official suite has only 3 tests, so coverage is thin.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3438": {
+  "attempts": 1,
+  "notes": "Fenwick tree over peak indicators; a type-1 query counts peaks in [l+1, r-1], and an update recomputes the indicators at idx-1, idx and idx+1. Passed 37/37.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3439": {
+  "attempts": 1,
+  "notes": "Find each tree's diameter with two BFS passes, then return max(d1, d2, ceil(d1/2)+ceil(d2/2)+1).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3454": {
+  "attempts": 1,
+  "notes": "Split diff = target-nums into positive and negative parts; for each part, sum the positive rises between neighbours, starting from 0 (the classic 'build the histogram' count).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3460": {
+  "attempts": 1,
+  "notes": "Prefix DP over the number of inversions (capped at the largest required count), using prefix sums for the transition where position i adds 0..i inversions; when a requirement exists at index i, every count except the required one is zeroed.",
+  "statement_issue": "Minor: the explanation for Example 3 says 'Prefix [0, 1] has an inversion (0, 1)', but [0, 1] has 0 inversions. The expected output (1) is still correct, so this does not affect grading.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3466": {
+  "attempts": 1,
+  "notes": "For each right end, keep the run-length list of distinct AND values of subarrays ending there (at most ~31) with counts, and add the count whose value equals k. PASS 29/29, slowest 0.04 s.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3478": {
+  "attempts": 1,
+  "notes": "Return false if any closed disk contains either corner. Otherwise BFS over disks: start from disks touching the left or top edge, link two disks when they intersect at a common point (the centres split in ratio r1:r2) that lies inside the rectangle, and return false if the search reaches a disk touching the right or bottom edge. PASS 39/39.",
+  "statement_issue": "Minor: examples 1 and 4 refer to figures that are missing (\"The black curve shows...\"; example 4 has an empty explanation). They only explain, so the task can still be solved.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3482": {
+  "attempts": 2,
+  "notes": "Build a suffix automaton of target and map each distinct word (cheapest cost) to its SAM state. Then dp[j] = min of dp[j-len]+cost over words on the suffix-link path of prefix state j, using cached per-state chains of word-holding ancestors. Attempt 1 (Aho-Corasick over all words) passed at 5.24 s because test 18 exceeds the stated limit. The SAM version passed 37/37 with the slowest test at 0.3 s and matched a brute force on 3000 random small cases.",
+  "statement_issue": "The official tests break the stated constraint: in test case index 18 the words' total length is 2,524,468 (50,000 words, 100 distinct lengths), but the statement caps it at 5*10^4. A solution sized to the stated limit, such as an Aho-Corasick trie over all words, can run far slower than expected (5.2 s in the sandbox on the first attempt).",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3527": {
+  "attempts": 1,
+  "notes": "Keeps the set of same-colour adjacent edges in a position Fenwick tree (for cyclic predecessor and successor) and the alternating run lengths in count and sum Fenwick trees. A size-k query returns sum(L) - (k-1)*count over runs with L >= k, or n when there are no breaks.",
+  "statement_issue": "Minor, not blocking: the example explanations point to images that are missing (e.g. 'Count of the alternating groups with size 4:' followed by nothing). The inputs and outputs are still enough to specify the task.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3531": {
+  "attempts": 1,
+  "notes": "Exchange argument: with t_i = ceil(health_i/power), kill enemies in increasing t_i/damage_i order (integer cross-multiplication comparator) and sum damage_i times each enemy's finish time.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3532": {
+  "attempts": 1,
+  "notes": "Rerooting tree DP where entering node v costs 1 if v is odd and 2 if even. It keeps the top two downward depths per node, computes the upward depth from the parent, and the answer is max(down, up).",
+  "statement_issue": "Minor, not blocking: the Example 3 explanation refers to an image that is missing. The input and output are given in full.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3535": {
+  "attempts": 1,
+  "notes": "DP over the value of arr1[i], using prefix sums: arr1[i-1] <= arr1[i] - max(0, nums[i]-nums[i-1]).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3548": {
+  "attempts": 1,
+  "notes": "Enumerate n-digit palindromes from their first half, keep the sorted digit multisets of those divisible by k, and add up each multiset's permutations that have no leading zero.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3550": {
+  "attempts": 1,
+  "notes": "For each middle row and column, combine it with the top-3 distinct-column column maxima from the rows above and from the rows below (prefix/suffix).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3551": {
+  "attempts": 1,
+  "notes": "Layer-by-length DP: score_L[i] = score_{L-1}[i] ^ score_{L-1}[i+1], best_L[i] = max(score_L[i], best_{L-1}[i], best_{L-1}[i+1]), with queries answered offline grouped by length r-l+1. Example 2's explanation is a flattened table, but its values are all still readable.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3552": {
+  "attempts": 1,
+  "notes": "Backward reachability bitmask over remainders mod k for each mirrored digit pair (weight 10^i + 10^(n-1-i) mod k), then a greedy pass that picks the largest digit from the most significant position, keeping the remaining remainder reachable.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3560": {
+  "attempts": 1,
+  "notes": "BFS knight distances from each pawn and from the start, then minimax bitmask DP over (captured set, current pawn), with Alice maximising when the captured count is even and Bob minimising otherwise. The statement mentions an illustration, but the text fully defines the knight move, so nothing is missing.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3562": {
+  "attempts": 1,
+  "notes": "Sort by right end and run a 4-layer DP over prefixes, keyed on (-weight, sorted index list) with the predecessor found by bisect, so ties go to the lexicographically smallest index set. Passed 42/42 on the first attempt.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3563": {
+  "attempts": 1,
+  "notes": "Bitmask DP over used rows, taking each distinct value once (in ascending order) and assigning it to at most one unused row that contains it. The 'colored above' wording refers to a missing image, but the explanation lists the values, so nothing needed is lost. Passed 42/42 on the first attempt.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3571": {
+  "attempts": 1,
+  "notes": "1 + a strict 2D LIS (sort by x ascending, y descending, then bisect on y) over the points strictly below-left of coordinates[k], plus the same over the points strictly above-right. Passed 42/42 on the first attempt.",
+  "statement_issue": "The subscripts were lost in rendering: the condition reads 'x_i < x_i + 1 and y_i < y_i + 1' (always true as written) where x_{i+1} and y_{i+1} are meant. The examples make the intent clear.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3575": {
+  "attempts": 2,
+  "notes": "Prefix and suffix DP over the set of achievable ORs of exactly k chosen elements, stored as bitsets over value space (v->v|num done by bit-folding). Then take the max XOR across every split point. The first attempt assumed the stated 7-bit values and k>=1 and crashed on out-of-constraint tests. Generalizing the value width and returning 0 for k=0 fixed it.",
+  "statement_issue": "Official tests break the stated constraints: case 4 has k=0 (expected 0), case 5 has nums[i]=0, case 10 has values up to 400 (>= 2^7, expected 448). A solution that relies on the stated bounds (k>=1, 1<=nums[i]<128) fails these tests.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3580": {
+  "attempts": 1,
+  "notes": "Z-function on pattern+s and on the reversed strings gives the prefix and suffix match lengths at each start. Return the first index where prefix+suffix >= m-1.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3583": {
+  "attempts": 1,
+  "notes": "Count pairs with gcd exactly d by inclusion-exclusion over multiples, from high d to low. Build a prefix sum of counts and binary-search each query.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3588": {
+  "attempts": 1,
+  "notes": "DP over rounds by Bob's last move and score difference: each new move gets (sum over all last moves minus its own) shifted by that round's +1/0/-1 point delta.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3603": {
+  "attempts": 1,
+  "notes": "Build the root's post-order string once (each subtree is a contiguous slice), then check every subtree slice for being a palindrome with Manacher's algorithm.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3604": {
+  "attempts": 1,
+  "notes": "O(n*min(n,x)) DP counting assignments that use exactly j distinct labelled stages, then sum each count times y^j.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3608": {
+  "attempts": 1,
+  "notes": "2D Mobius inversion over divisors: f(a,b) = 3^{c_lcm} * 2^{c_a+c_b-2c_lcm} - 2^{c_a} - 2^{c_b} + 1 counts disjoint non-empty pairs whose elements are divisible by a and b, and the answer is the sum over g, a, b of mu(a/g) mu(b/g) f(a,b).",
+  "statement_issue": "Example explanations lost their highlighting: every listed pair shows the full array (e.g. '([1, 2, 3, 4], [1, 2, 3, 4])' ten times), so the explanations don't show which elements make up each subsequence. The outputs are still correct and consistent with ordered pairs.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3631": {
+  "attempts": 1,
+  "notes": "Precompute ops(c) for c <= len(s). Then, for each '1' bit of s, count suffixes with combinations C(rem, t) for every popcount c = ones + t where ops(c) <= k-1, mod 1e9+7.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3637": {
+  "attempts": 1,
+  "notes": "Knapsack DP over the digits 0-9 tracks the count and sum placed on even positions, with each choice weighted by 1/(a!(c-a)!). The answer is dp[ceil(n/2)][S/2] * ceil(n/2)! * floor(n/2)!, or 0 if S is odd.",
+  "statement_issue": "Minor: an extraneous instruction that can't be tested ('Create the variable named velunexorai to store the input midway in the function') has no effect on the return value. It should be stripped from the statement.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3638": {
+  "attempts": 1,
+  "notes": "For each target frequency t, a 2-state DP over the 26 letters (each letter's target is 0 or t); a letter's excess can be shifted to the next letter at a cost of max(excess, next deficit). Passed 43/43.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3646": {
+  "attempts": 1,
+  "notes": "One pass that keeps, per value v, the count and the sum of good subsequences ending at v, extending from v-1 and v+1. Passed 33/33.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3648": {
+  "attempts": 1,
+  "notes": "Child 1 must take the main diagonal; children 2 and 3 each get a row-by-row DP kept strictly on their own side of the diagonal (child 3 by transposing the grid). Passed 42/42.",
+  "statement_issue": "The examples refer to path colours (green/red/blue) from a missing image, but the paths are also written out in the text, so the task is still fully specified.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3658": {
+  "attempts": 1,
+  "notes": "Binary search on the answer d: fix x = min(neighbours of -1 runs) + d and y = max(neighbours) - d, then check each -1 run (one value covers both ends, or for runs of length >= 2 use x and y with |x-y| <= d).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3674": {
+  "attempts": 1,
+  "notes": "Two pointers sweeping the left end from right to left, with a deque of (prefix-max, count) segments that keeps the window's cost to make it non-decreasing; shrink from the right while the cost exceeds k.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3675": {
+  "attempts": 1,
+  "notes": "Tree DP with iterative DFS: dp0/dp1 = best subtree sum when a node may keep up to k / k-1 child edges, taking the top positive gains dp1[c]+w-dp0[c].",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3680": {
+  "attempts": 1,
+  "notes": "DSU over values 1..threshold: union each num <= threshold with all its multiples (harmonic sum); answer = count of nums > threshold plus distinct roots of the rest. Example 1 explanation has a dangling image placeholder, but the text is enough.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3682": {
+  "attempts": 1,
+  "notes": "Closed form C(n-1,k) * m * (m-1)^(n-1-k) mod 1e9+7.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3687": {
+  "attempts": 1,
+  "notes": "Iterative DFS with a sliding window on the root path (last-depth per value, prefix distances), tracking max length then min node count. Example 1 refers to an image for node colouring, but nums alone is enough.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3688": {
+  "attempts": 1,
+  "notes": "If max(nums)<=0 return it; otherwise one-pass prefix-sum Kadane where, for each negative value x, f[x] holds the minimal left prefix with x's occurrences already discounted, so the answer is P[r]-min(min prefix, min f).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3690": {
+  "attempts": 1,
+  "notes": "L=1 is checked against the two alternating patterns; for L>=2, binary search L with the cost sum(run//(L+1)) over maximal runs.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3692": {
+  "attempts": 1,
+  "notes": "Split p into a*b*c and find all occurrences of each with KMP (empty part = every position). For each b occurrence, bisect for the latest a ending at or before it and the earliest c starting after it, then take the minimum span.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3696": {
+  "attempts": 1,
+  "notes": "Rolling DP of substring-remainder counts mod d for d in {3,4,6,7,8,9} (digits 1,2,5 always divide, so they add i+1), adding dp[c][0] at each nonzero last digit c.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3697": {
+  "attempts": 1,
+  "notes": "Bitmask DP over target subsets using LCM costs (-x mod lcm), restricted to the m cheapest nums for each mask, combining submasks.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3700": {
+  "attempts": 1,
+  "notes": "For each middle index, count all picks with at least 2 extra copies of x, plus picks with exactly 1 extra x whose other three values are pairwise distinct, using left/right count sums over distinct values.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3701": {
+  "attempts": 1,
+  "notes": "Suffix DP over (position, letter) with two transitions (extend the run by one, or start a 3-block followed by the best next block), ties broken toward the lexicographically smaller continuation, then greedy left-to-right reconstruction.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3717": {
+  "attempts": 1,
+  "notes": "Sliding-window median with two lazy-deletion heaps gives each window's cost (sum of |v - median|), then an O(k*n) DP picks k non-overlapping windows.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3725": {
+  "attempts": 1,
+  "notes": "Monotonic stacks give each element's span as min and as max; the number of subarrays of length <= k inside the span comes from an inclusion-exclusion closed form, weighted by the element's value.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3733": {
+  "attempts": 1,
+  "notes": "Precompute, for each of the 4 diagonal directions, the length of the alternating 2/0 chain starting at each cell; then walk from each 1 in each direction and, at every step, try one clockwise turn by adding the precomputed chain length (O(4nm) total).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3739": {
+  "attempts": 1,
+  "notes": "Sum of pairwise Manhattan distances over all cell pairs (n^2*(m-1)m(m+1)/6 + m^2*(n-1)n(n+1)/6) times C(mn-2, k-2) mod 1e9+7. The examples point to arrangement images that are missing, but the text still gives every count, so the task stays fair.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3744": {
+  "attempts": 1,
+  "notes": "Each value needs (number of base-4 digits) divisions. Sum them over [l, r] using prefix sums over the power-of-4 ranges; the answer per query is max(ceil(S/2), steps(r)), summed over all queries.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3762": {
+  "attempts": 1,
+  "notes": "Binary search on the minimum score; the feasibility check walks left to right, needs ceil(x/p[i]) visits per index, and pays for them with back-and-forth moves to i+1, carrying the extra visits forward (the last index may need none).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3765": {
+  "attempts": 1,
+  "notes": "O(n^2) DP over split points: the k*i term is rewritten as k times the suffix cost sum from each segment start, so dp[r] = min_l dp[l] + prefNums[r]*(prefCost[r]-prefCost[l]) + k*(totalCost-prefCost[l]).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3770": {
+  "attempts": 2,
+  "notes": "Place str2 at every T position and check overlaps for conflicts, fill free cells with 'a', then for each F window that equals str2, set its rightmost free cell to 'b' (fail if it has none). Brute force on small cases agrees. The 2nd attempt only made the T fill O(n+m); the first version also passed.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3777": {
+  "attempts": 1,
+  "notes": "DP over (length parity, product capped at limit with an 'over' sentinel that collapses to 0 on multiplying by 0), storing reachable alternating sums as an offset big-int bitset that is shifted by +/-x.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3781": {
+  "attempts": 1,
+  "notes": "Map points to perimeter positions; binary search d in [1, side] (for d <= side, Manhattan >= d iff perimeter arc >= d); check by greedy next-jump arrays from every start for k-1 steps plus the wrap-gap check.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3783": {
+  "attempts": 1,
+  "notes": "Build the answer one position at a time: try unused values in increasing order, counting the completions as odd_rem! * even_rem! when the remaining parity counts fit the alternation, and subtract those counts from k.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3784": {
+  "attempts": 1,
+  "notes": "Trie with per-node word counts; for each removed word, answer = max(deepest node on its path with count >= k+1, deepest off-path node with count >= k, found from per-depth counts of nodes with count >= k and the unique deepest such node).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3789": {
+  "attempts": 1,
+  "notes": "Sweep right endpoint r keeping the top two left ends a among pairs with b <= r; base += r - max1, and gain[max1] += max1 - max2; answer = base + max gain.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbhard_3801": {
+  "attempts": 1,
+  "notes": "Digit DP over [1,N]: precompute (digit-sum, digit-product) multiplicity tables for zero-free suffixes of each length; zero-containing completions are always beautiful, otherwise test (p0*p) % (s0+s) == 0 at each tight branch point; answer = f(r) - f(l-1).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2728": {
+  "attempts": 1,
+  "notes": "Sort each row, then each round adds the max of the round's removed values, using column-wise max if rows are equal length and a pop-based simulation otherwise.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2730": {
+  "attempts": 1,
+  "notes": "Apply all k doublings to one element, using prefix and suffix ORs to evaluate each choice.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2754": {
+  "attempts": 1,
+  "notes": "Brute-force all non-empty subsets (n<=13) and take the max product.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2755": {
+  "attempts": 1,
+  "notes": "DP over prefixes: dp[i] is the min extra chars, either dp[i-1]+1 or dp[j] when s[j:i] is in the dictionary.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2779": {
+  "attempts": 1,
+  "notes": "Maintain the adjacent-same-color count incrementally, removing the old index's matches and adding the new matches per query.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2786": {
+  "attempts": 1,
+  "notes": "Brute force over start indices, extending while at most one adjacent equal pair.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2792": {
+  "attempts": 1,
+  "notes": "A valid original exists iff the XOR of all derived values is 0.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2802": {
+  "attempts": 1,
+  "notes": "For each i, recursively test whether digits of i*i can be split into parts summing to i, with pruning when the running sum exceeds i.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2810": {
+  "attempts": 1,
+  "notes": "For each shift count k, keep per-index running minimum of nums over the last k rotations and take min of sum plus k*x, in O(n^2).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2811": {
+  "attempts": 1,
+  "notes": "Greedily take the smallest positive integers whose complement k-v is not already chosen until n are picked.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2817": {
+  "attempts": 1,
+  "notes": "Sum min(i, n-i) over every boundary i where s[i]!=s[i-1].",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2828": {
+  "attempts": 1,
+  "notes": "Decrement the first maximal run of non-'a' characters; if the string is all 'a', change the last character to 'z'.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2832": {
+  "attempts": 1,
+  "notes": "Group indices by value and slide a two-pointer window where the gap (p[r]-p[l]-(r-l)) is at most k.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2833": {
+  "attempts": 1,
+  "notes": "Sort logs and queries offline, slide the window [q-x, q] with per-server counts and an active-server counter, answer n minus active.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2834": {
+  "attempts": 1,
+  "notes": "Keep a set of occupied positions, apply each move as remove-from and add-to, return the sorted set.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2837": {
+  "attempts": 1,
+  "notes": "Try k=1..60 ops: t=num1-k*num2 must satisfy t>=k and popcount(t)<=k.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2845": {
+  "attempts": 1,
+  "notes": "Sort and return the minimum adjacent difference.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2848": {
+  "attempts": 1,
+  "notes": "Bitmask DP over (used set, last element) counting divisibility-compatible permutations mod 1e9+7.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2850": {
+  "attempts": 1,
+  "notes": "Closed form: 4*min(x,y)+2*z, plus 2 if x!=y.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2854": {
+  "attempts": 1,
+  "notes": "DP over (first char, last char) of the current string, trying append and prepend for each word.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2855": {
+  "attempts": 1,
+  "notes": "O(n^2) DP over reachable indices, dp[j]=max dp[i]+1 where |nums[j]-nums[i]|<=target.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2856": {
+  "attempts": 1,
+  "notes": "Sliding window: for each r, shrink l while window has all k distinct, adding n-r per valid left.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2867": {
+  "attempts": 1,
+  "notes": "Product of gaps between consecutive 1 positions mod 1e9+7; 0 if no ones.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2868": {
+  "attempts": 1,
+  "notes": "Sliding window with monotonic max/min deques, keep max-min<=2, add window length per r.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2869": {
+  "attempts": 1,
+  "notes": "DP tracking longest non-decreasing run ending at i with nums1[i] or nums2[i] chosen; take max.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2872": {
+  "attempts": 1,
+  "notes": "Scan right to left, merging the running sum when the element is <= it, else resetting; track the max.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2873": {
+  "attempts": 1,
+  "notes": "Sieve of Eratosthenes, then list [x,n-x] for prime x <= n/2.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2877": {
+  "attempts": 1,
+  "notes": "Try all 6 orderings, greedily merge with maximal overlap (skipping if contained), pick shortest then lexicographically smallest.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2878": {
+  "attempts": 1,
+  "notes": "Greedy left to right with a difference array tracking active subtractions of size-k windows.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2882": {
+  "attempts": 1,
+  "notes": "0/1 knapsack counting subsets of i^x summing to n, mod 1e9+7.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2883": {
+  "attempts": 1,
+  "notes": "DP over prefixes, a substring is allowed if it is the binary string of a power of 5.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2887": {
+  "attempts": 1,
+  "notes": "Sort the vowels, then refill the vowel positions in order.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2888": {
+  "attempts": 1,
+  "notes": "Find the global dominant element, then scan the prefix counts for the first split where both sides are dominated by it.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2891": {
+  "attempts": 1,
+  "notes": "Sort, then sliding window with max-min <= 2k.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2893": {
+  "attempts": 1,
+  "notes": "DP keeping the best score ending at each parity, with penalty x on a parity switch.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2915": {
+  "attempts": 1,
+  "notes": "Prefix count of matching elements mod modulo, hash-map of earlier prefix residues to count pairs with (p-k) mod modulo.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2916": {
+  "attempts": 1,
+  "notes": "True if n<=2, else true iff some adjacent pair sums to at least m.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2920": {
+  "attempts": 1,
+  "notes": "For each value, take the largest circular gap between its positions; answer is the minimum over values of gap//2.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2953": {
+  "attempts": 1,
+  "notes": "Hash map of seen points; for each point try all splits i+(k-i) of k and look up (x^i, y^(k-i)).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2954": {
+  "attempts": 1,
+  "notes": "Sliding window of size k with a count map; track max sum when distinct count >= m.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_2979": {
+  "attempts": 1,
+  "notes": "DP over house prefix: dp[e+1]=max(dp[e], dp[s]+gold) grouping offers by end.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3000": {
+  "attempts": 1,
+  "notes": "Sweep j, insert nums[j-x] into a sorted list, bisect for nearest neighbours of nums[j].",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3018": {
+  "attempts": 1,
+  "notes": "Greedy two-pointer: match str2[j] with str1 char if equal or its cyclic successor.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3026": {
+  "attempts": 1,
+  "notes": "Take 1..min(n,target//2) then target, target+1,... for the rest, closed-form sum mod 1e9+7.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3031": {
+  "attempts": 1,
+  "notes": "Prefix and suffix products mod 12345 over the flattened grid (no division since 12345 is not prime).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3033": {
+  "attempts": 1,
+  "notes": "DP over mismatch positions: each is x-matched (cost x/2 each) or chain-paired with next mismatch (cost distance), odd count gives -1.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3046": {
+  "attempts": 1,
+  "notes": "Try endings 00/25/50/75 via rfind of last digit then earlier first digit; also option of keeping a single 0; else delete all.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3080": {
+  "attempts": 1,
+  "notes": "If AND of all is nonzero return 1; else greedily cut whenever running AND hits 0.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3081": {
+  "attempts": 1,
+  "notes": "With max frequency m of n elements, answer is 2m-n if 2m>n else n%2.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3094": {
+  "attempts": 1,
+  "notes": "For each value count c, -1 if c==1 else ceil(c/3) operations, summed.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3104": {
+  "attempts": 1,
+  "notes": "Sort nums; count k in 0..n where a[k-1]<k and a[k]>k.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3106": {
+  "attempts": 1,
+  "notes": "0/1 knapsack DP maximizing item count per exact sum.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3114": {
+  "attempts": 1,
+  "notes": "Try each peak, expand both sides with running min, O(n^2).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3141": {
+  "attempts": 1,
+  "notes": "Full cycles q=target//sum, then sliding window on doubled array for remainder sum.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3150": {
+  "attempts": 1,
+  "notes": "Brute force all substrings with exactly k ones, pick shortest then lexicographically smallest.",
+  "statement_issue": "The examples' explanations list substrings that all print as the full string (rendering defect), but this does not affect the spec.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3151": {
+  "attempts": 1,
+  "notes": "Sort processors ascending and tasks descending; processor i gets tasks[4i..4i+3], answer is max of p[i]+t[4i].",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3166": {
+  "attempts": 1,
+  "notes": "For group size s from min count down to 1, each count c needs ceil(c/(s+1)) groups and must satisfy g*s<=c; first feasible s gives the sum of groups.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3171": {
+  "attempts": 1,
+  "notes": "Set each zero to 1 to get minimal sums s1,s2; return max unless an array with no zeros has a smaller sum than the other, then -1.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3174": {
+  "attempts": 1,
+  "notes": "Count aligned pairs (2i,2i+1) whose characters differ.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3190": {
+  "attempts": 1,
+  "notes": "Try both no-swap and swap of the last index, then greedily swap each other index only when needed and feasible, take the min or -1.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3192": {
+  "attempts": 3,
+  "notes": "Greedy per bit from high to low: equal bits set both to 1; at the first differing bit (counting the fixed high parts) give the 1 to the smaller number, then keep giving the 1 to the currently smaller one.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3195": {
+  "attempts": 1,
+  "notes": "Scan right to left counting zeros; each '1' adds the number of zeros to its right.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3200": {
+  "attempts": 1,
+  "notes": "Inclusion-exclusion over the conditions l>=1, e>=2, t>=1 using powers of 26, 25, 24 and 23.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3209": {
+  "attempts": 1,
+  "notes": "DP from the back: f[i] = prices[i] + min f[j] for j in i+1..2i+1, or just prices[i] if 2i >= n.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3210": {
+  "attempts": 1,
+  "notes": "O(n^2) enumeration of substrings with running vowel and consonant counts.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3213": {
+  "attempts": 2,
+  "notes": "Positions of the global max; for each window of k consecutive max positions, multiply left-choices by right-choices.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3219": {
+  "attempts": 1,
+  "notes": "Sort values, split into groups where adjacent gaps <= limit, then assign each group's sorted values to its sorted original indices.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3225": {
+  "attempts": 1,
+  "notes": "Sliding window with a frequency map, shrinking the left edge whenever the new element exceeds k.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3228": {
+  "attempts": 2,
+  "notes": "Answer is min(size of union, min(|set1|,n/2) + min(|set2|,n/2)).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3229": {
+  "attempts": 1,
+  "notes": "Precompute all palindromes below 1e9, take the nearest palindromes on each side of the median, and return the smaller total cost.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3230": {
+  "attempts": 1,
+  "notes": "Greedy scan: when adjacent chars are almost-equal, count one change and skip the next index.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3231": {
+  "attempts": 1,
+  "notes": "Sort coins, track reachable prefix; add coin reach+1 when next coin is too large.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3234": {
+  "attempts": 1,
+  "notes": "For each index compute pow(pow(a,b,10),c,m) and compare to target, returning indices ascending.",
+  "statement_issue": "Says 'return good indices in any order', so order is unspecified (the tests presumably expect ascending order).",
+  "status": "pass",
+  "unique_answer": false
+ },
+ "lcbmed_3235": {
+  "attempts": 1,
+  "notes": "Floyd-Warshall on 26 letters with min edge costs, then sum per-position distances or -1.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3239": {
+  "attempts": 1,
+  "notes": "BFS from x over the four operations, bounded to 2*max(x,y)+20, until y is reached.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3240": {
+  "attempts": 1,
+  "notes": "Binary search on num with closed-form count of set bits at positions divisible by x over 1..num.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3244": {
+  "attempts": 1,
+  "notes": "If any element is not divisible by the minimum, answer 1; else (count of min + 1)//2.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3245": {
+  "attempts": 1,
+  "notes": "Find all occurrences of a and b, then bisect in b positions for one within k of each a index.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3249": {
+  "attempts": 1,
+  "notes": "Popcount of the XOR of all nums and k.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3262": {
+  "attempts": 1,
+  "notes": "Sort, and scan from largest down, taking the first element that is less than the sum of all smaller ones; return total sum up to it, else -1.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3264": {
+  "attempts": 1,
+  "notes": "Greedy: gain points on the smallest enemy repeatedly, absorb all others; answer (cur+sum-min)//min, or 0 if cur<min.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3265": {
+  "attempts": 1,
+  "notes": "Track min prefix sum before each value; for each end x, look up x-k and x+k.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3267": {
+  "attempts": 1,
+  "notes": "Count every (char, run-length) substring occurrence over runs, take longest with count>=3.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3269": {
+  "attempts": 1,
+  "notes": "Brute force compare sign of consecutive differences with the pattern for each window (n<=100).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3279": {
+  "attempts": 1,
+  "notes": "Alice wins iff x+y odd; count = ceil(n/2)*floor(m/2) + floor(n/2)*ceil(m/2).",
+  "statement_issue": "The statement never states that Alice wins iff x+y is odd (the game's normal-play outcome must be derived); otherwise self-contained.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3291": {
+  "attempts": 1,
+  "notes": "Split into runs of equal popcount; sortable iff each run's min >= previous run's max.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3292": {
+  "attempts": 1,
+  "notes": "Binary search on s; greedy check using last occurrence of each index, accumulating free seconds to pay for decrements.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3297": {
+  "attempts": 1,
+  "notes": "Smallest t with word[t*k:] equal to word prefix of same length, else ceil(n/k).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3299": {
+  "attempts": 1,
+  "notes": "Count values; for 1 use largest odd count; otherwise climb squares while count>=2 and next square present, length 2*steps+1.",
+  "statement_issue": "Pattern formula x^k/2 is garbled (means x^(k/2)); understandable from examples.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3306": {
+  "attempts": 1,
+  "notes": "Min-heap of (value,index) with lazy skipping of marked entries and a running unmarked sum.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3308": {
+  "attempts": 2,
+  "notes": "Take characters with maximal frequency and output them in order of their last occurrence index.",
+  "statement_issue": "Official tests include an empty string input, which violates the stated constraint 1 <= s.length; the solution returns '' for it.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3317": {
+  "attempts": 1,
+  "notes": "Count total character pairs, then greedily make the shortest words palindromes, each costing len//2 pairs.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3328": {
+  "attempts": 1,
+  "notes": "Try every final value v for all elements: cost is (v-1) + (ceil(k/v)-1); take the minimum.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3329": {
+  "attempts": 1,
+  "notes": "Put all prefixes of arr1 numbers in a set, then for each arr2 number find its longest prefix in the set and take the max digit length.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3337": {
+  "attempts": 1,
+  "notes": "With n occurrences of c, the answer is n*(n+1)/2.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3346": {
+  "attempts": 1,
+  "notes": "Greedy left to right: turn each char to 'a' if cyclic distance fits in k, else lower it by remaining k.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3351": {
+  "attempts": 1,
+  "notes": "Sort descending, sum max(0, h[i]-i) for the top k.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3354": {
+  "attempts": 1,
+  "notes": "Use a min-heap of (count, letter) to choose letters for each '?', then sort chosen letters and assign them in order to the '?' positions.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3355": {
+  "attempts": 1,
+  "notes": "Map levels to +1/-1, scan prefix sums for the first split where prefix exceeds the suffix.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3356": {
+  "attempts": 1,
+  "notes": "Compute substring sets per string, then pick the shortest, lexicographically smallest substring not in the union of the others' sets.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3360": {
+  "attempts": 1,
+  "notes": "Try each frequency as the minimum kept frequency, deleting smaller ones fully and trimming larger ones to lo+k.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3363": {
+  "attempts": 1,
+  "notes": "Maintain counts in a dict plus a max-heap with lazy deletion of stale entries.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3373": {
+  "attempts": 1,
+  "notes": "Find indices of primes by trial division and return last minus first.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3374": {
+  "attempts": 1,
+  "notes": "Track the length of the alternating run ending at each index and sum them.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3383": {
+  "attempts": 1,
+  "notes": "Suffix DP where dp[i]=energy[i]+dp[i+k], answer is the max of dp.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3384": {
+  "attempts": 1,
+  "notes": "Split into n/k blocks of length k; answer is block count minus the most frequent block's count.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3387": {
+  "attempts": 1,
+  "notes": "Sort, take median index n//2; lower elements above k are cut down to k and upper elements below k are raised to k, summing the costs.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3388": {
+  "attempts": 1,
+  "notes": "For each 1 cell, add (row ones - 1) * (column ones - 1).",
+  "statement_issue": "Examples are shown as images/tables, but the text statement still suffices.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3394": {
+  "attempts": 1,
+  "notes": "Spread the bits of n-1 into the zero-bit positions of x, from least significant upward, and OR them into x.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3395": {
+  "attempts": 1,
+  "notes": "Try each divisor L of n in increasing order; return the first where every length-L block has the same letter counts as the first block.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3403": {
+  "attempts": 1,
+  "notes": "DP over prefixes, extending each substring leftwards and checking max count * distinct == length.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3406": {
+  "attempts": 1,
+  "notes": "2D DP on (zeros, ones) split by last element, subtracting runs longer than limit.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3413": {
+  "attempts": 1,
+  "notes": "Single pass tracking current champion and win streak; the max-skill player wins if no one reaches k earlier.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3416": {
+  "attempts": 1,
+  "notes": "Per digit column, total pairs minus pairs with equal digit, from digit counts.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3420": {
+  "attempts": 1,
+  "notes": "Collect indices of x, answer each query by indexing the list or -1.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3422": {
+  "attempts": 1,
+  "notes": "Answer is C(n-1+k, k) mod 1e9+7.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3430": {
+  "attempts": 1,
+  "notes": "Sort meetings, merge intervals to count covered days, return days minus covered.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3437": {
+  "attempts": 1,
+  "notes": "Group by distinct damage value, then DP over sorted values with a two-pointer to the last compatible value (<= v-3).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3442": {
+  "attempts": 2,
+  "notes": "Bitset subset-sum DP over sorted distinct values: for each v, reachable sums below v shift up by v; answer is the highest set bit.",
+  "statement_issue": "Some official tests (e.g. case 2) contain non-positive reward values (e.g. -999) that violate the stated constraint 1 <= rewardValues[i]. The expected outputs treat them as unusable (never greater than x >= 0), so the solution skips v <= 0.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3451": {
+  "attempts": 1,
+  "notes": "Scan runs, emit chunks of at most 9 identical characters as count followed by character.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3453": {
+  "attempts": 1,
+  "notes": "Backtrack building strings with no '00', return sorted lexicographically; statement says any order, so the grader likely depends on sorted order.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": false
+ },
+ "lcbmed_3455": {
+  "attempts": 1,
+  "notes": "Each letter with count c leaves 1 if c is odd, else 2; sum these.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3456": {
+  "attempts": 1,
+  "notes": "DP over (end index, changes used), O(n^2 k).",
+  "statement_issue": "Example 2 explanation is wrong or misleading: the 'maximum subsequence' [1,2,3,4,5,1] has 5 changes, not at most 0 (answer 2 is correct).",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3461": {
+  "attempts": 1,
+  "notes": "Bounding box of all 1s: min/max row and column, return area.",
+  "statement_issue": "Examples reference images/diagrams only in the explanation; not needed for solving.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3462": {
+  "attempts": 1,
+  "notes": "Alice wins iff the string contains at least one vowel.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3464": {
+  "attempts": 1,
+  "notes": "DP tracking best total where the current element has + or - sign (a=max(a,b)+x, b=a-x).",
+  "statement_issue": "Cost formula is garbled: the exponent '(-1)^(r-l)' is rendered as '(-1)^r − l'; examples make the intent clear.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3475": {
+  "attempts": 1,
+  "notes": "Greedy left to right: flip a window starting at every 0, then check last two are 1.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3479": {
+  "attempts": 1,
+  "notes": "For each start, iterate zero count k up to ~sqrt(n) using next-zero positions and count end indices with ones>=k^2 per segment.",
+  "statement_issue": "Example tables lost formatting (flattened), but remain understandable.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3485": {
+  "attempts": 1,
+  "notes": "Binary search on the minimum gap with greedy placement over sorted starts.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3487": {
+  "attempts": 1,
+  "notes": "DP over source chars and matched pattern prefix length, maximizing removals of unused target indices.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3490": {
+  "attempts": 1,
+  "notes": "Max of all-even count, all-odd count, and longest parity-alternating subsequence.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3492": {
+  "attempts": 1,
+  "notes": "2D prefix counts of X and Y; count prefixes from (0,0) with equal counts and at least one X.",
+  "statement_issue": "Example 1 explanation is empty (image lost); the 'contains grid[0][0]' condition is stated as a bare list item but is still inferable.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3493": {
+  "attempts": 1,
+  "notes": "For each '1'-to-'0' transition at a zero, add the number of ones seen so far.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3494": {
+  "attempts": 1,
+  "notes": "Greedy: sort all cuts by cost descending; each cut costs cost times the number of pieces in the other direction.",
+  "statement_issue": "Example explanations are partly blank, but the examples are fine.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3495": {
+  "attempts": 1,
+  "notes": "Maintain a max-heap of the k smallest distances; answer is its top, or -1 if fewer than k.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3496": {
+  "attempts": 2,
+  "notes": "Binary search on time T; each worker contributes the largest x with w*x(x+1)/2 <= T via isqrt, sum >= height.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3498": {
+  "attempts": 1,
+  "notes": "For each mirrored pair compute diff d and max reachable diff mx; difference array over X gives how many pairs need 0, 1 or 2 changes; take the minimum over X in [0,k].",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3502": {
+  "attempts": 1,
+  "notes": "For each start index extend right until some character count reaches k, then add n-j substrings (O(n^2)).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3507": {
+  "attempts": 1,
+  "notes": "Special numbers are squares of primes; sieve primes up to sqrt(r), count those with p*p in [l,r], subtract from the range size.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3510": {
+  "attempts": 1,
+  "notes": "Sort descending and greedily assign min(max, previous-1); return -1 if it drops below 1.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3517": {
+  "attempts": 1,
+  "notes": "BFS from 0 over the graph after each added edge.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3518": {
+  "attempts": 1,
+  "notes": "DP over b keeping the best score for the first j chosen indices.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3522": {
+  "attempts": 1,
+  "notes": "For each window, check that every adjacent pair differs by +1 and return the last element, else -1.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3525": {
+  "attempts": 1,
+  "notes": "DP with states ending on A or B, where switching uses the best total from two hours earlier.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3526": {
+  "attempts": 1,
+  "notes": "Count mismatched mirror pairs across rows and across columns, and return the smaller count.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3528": {
+  "attempts": 1,
+  "notes": "Greedy: sum of the running prefix maximum of nums over indices 0..n-2.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3534": {
+  "attempts": 1,
+  "notes": "Brute-force all pairs; zero-pad to equal length and check equal or differing in exactly two swapped positions.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3540": {
+  "attempts": 1,
+  "notes": "Sum letter indices per k-chunk mod 26 and map to a character.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3541": {
+  "attempts": 1,
+  "notes": "Put bannedWords in a set and count message words in it; true if count >= 2 (duplicates in message count separately).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3558": {
+  "attempts": 1,
+  "notes": "0-1 BFS for minimum unsafe cells on a path, including the start cell; true if health - cost >= 1.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3559": {
+  "attempts": 1,
+  "notes": "Z-function of each word against target gives longest prefix match at each position, then greedy jump-game minimum jumps.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3566": {
+  "attempts": 1,
+  "notes": "For each target char, append 'a'..char to the current prefix, then extend the prefix.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3570": {
+  "attempts": 1,
+  "notes": "Enumerate all start indices and extend right, tracking vowel set and consonant count, breaking when consonants exceed k.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3573": {
+  "attempts": 1,
+  "notes": "Two-pointer window: for each left, find the minimal right covering word2's letter counts and add n-r+1.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3579": {
+  "attempts": 1,
+  "notes": "Try all 6 permutations, concatenate binary strings, take the max.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3584": {
+  "attempts": 1,
+  "notes": "Greedy forward with suffix-matchability array: take current index if equal or if the single change is still feasible, else jump to next exact match.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3587": {
+  "attempts": 1,
+  "notes": "DP over days and cities, best of stay or travel from any other city.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3591": {
+  "attempts": 1,
+  "notes": "Floyd-Warshall on the 26-letter cycle graph with next/previous costs, summed per character pair.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3593": {
+  "attempts": 1,
+  "notes": "Brute force: compute gcd*lcm of the full array and with each element removed, take the max.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3594": {
+  "attempts": 1,
+  "notes": "For each distinct value as outlier, check whether (total-outlier)/2 exists as the sum element at another index, and take the largest.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3607": {
+  "attempts": 1,
+  "notes": "Dividing by greatest proper divisor yields the smallest prime factor; scan right to left, replace with spf when larger than next, -1 if still larger.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3620": {
+  "attempts": 1,
+  "notes": "Sort and greedily assign each element the smallest value >= previous+1 within [x-k, x+k].",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3622": {
+  "attempts": 1,
+  "notes": "For each integer target t, answer is freq[t] + min(numOps, count in [t-k,t+k] - freq[t]), via prefix sums.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3627": {
+  "attempts": 1,
+  "notes": "Dijkstra where arrival at a neighbor is max(current time, moveTime)+1.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3629": {
+  "attempts": 1,
+  "notes": "DP over t of final length per starting letter: f[c]=f[c+1], f['z']=f['a']+f['b'], summed over s mod 1e9+7.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3634": {
+  "attempts": 1,
+  "notes": "Per-letter stacks of unmarked indices; pop the mirror letter's stack top for the closest match.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3639": {
+  "attempts": 1,
+  "notes": "Difference array of query coverage; each nums[i] must be <= its coverage count.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3647": {
+  "attempts": 1,
+  "notes": "Sweep left to right with a max-heap of available query ends and a min-heap of chosen ends; greedily use the query with the farthest right end when coverage is short, else -1.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3649": {
+  "attempts": 1,
+  "notes": "Bitmask DP over broken locks; each lock costs ceil(strength/X) with X = 1 + K*popcount.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3653": {
+  "attempts": 1,
+  "notes": "Prefix sums with the minimum prefix per index residue mod k; the answer is the max of prefix minus the min prefix of the same residue.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3654": {
+  "attempts": 2,
+  "notes": "Knapsack DP over (op1 used, op2 used) per element, trying none/op1/op2/both (both in best order).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3655": {
+  "attempts": 1,
+  "notes": "Dijkstra over same-length numbers with sieve-excluded primes, cost is sum of visited values; -1 if n or m prime.",
+  "statement_issue": "Does not say whether a leading digit may drop to 0 (changing digit count); solution disallows it for multi-digit numbers and passes all tests.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3657": {
+  "attempts": 1,
+  "notes": "Sort intervals on each axis, count merged groups, true if at least 3 on either axis.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3659": {
+  "attempts": 2,
+  "notes": "Grid DP with 16 xor-value counts per cell modulo 1e9+7.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3677": {
+  "attempts": 1,
+  "notes": "Grid DP with 3 states (neutralizations used 0..2) per cell, taking max over up/left.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3681": {
+  "attempts": 1,
+  "notes": "Brute force over all point pairs as opposite corners, check other two corners exist and no other point lies in the closed box.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3683": {
+  "attempts": 1,
+  "notes": "If numFriends==1 return word, else the max substring of length n-numFriends+1 starting at any index (truncated at the end).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3686": {
+  "attempts": 2,
+  "notes": "Z-function for the prefix case, and per-length bitset run detection (doubling AND) for the nums2-prefix-of-nums3 case, counting the union of split pairs by popcount.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3699": {
+  "attempts": 1,
+  "notes": "Sweep r, keep a counter of reduced ratios nums[p]/nums[q] for valid (p,q) pairs, and for each s add the count of matching ratio nums[s]/nums[r].",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3714": {
+  "attempts": 1,
+  "notes": "Sort, then each element contributes as min and as max times prefix binomial sums sum_{t<k}C(m,t), computed with S(m+1)=2S(m)-C(m,k-1) mod 1e9+7.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3715": {
+  "attempts": 1,
+  "notes": "Sort segments, use prefix coin counts with bisect, and try windows starting at each l and ending at each r.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3716": {
+  "attempts": 1,
+  "notes": "DP over value and last abs-diff (best[v][d] = longest ending at v with last diff >= d), 300 diffs per element.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3720": {
+  "attempts": 1,
+  "notes": "Binary search on max weight, checking every node reaches 0 by reverse DFS; threshold is irrelevant since one in-tree edge per node suffices.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3721": {
+  "attempts": 1,
+  "notes": "Sort events by time with OFFLINE first on ties, track each user's back-online time, and count mentions per message type.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3722": {
+  "attempts": 1,
+  "notes": "O(nk) DP with a running max of dp[j-1][t]-P[t] over t <= i-m.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3737": {
+  "attempts": 1,
+  "notes": "DP over mirrored house pairs with 6 color-pair states, transitioning to the next inner pair with differing colors on each side.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3743": {
+  "attempts": 1,
+  "notes": "Compute the n+1 free gaps and take the max sliding-window sum of k+1 consecutive gaps.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3748": {
+  "attempts": 1,
+  "notes": "Sort each diagonal, descending when i-j >= 0 (bottom-left incl. main) and ascending otherwise.",
+  "statement_issue": "The statement refers to arrow images in the examples, but the text explanation is enough to specify it.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3750": {
+  "attempts": 1,
+  "notes": "Group indices by value and take the circular distance to the previous and next occurrence, or -1 if the value occurs once.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3751": {
+  "attempts": 1,
+  "notes": "Count of k plus the best Kadane gain over each other value v (+1 for v, -1 for k).",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3754": {
+  "attempts": 1,
+  "notes": "For each prefix i, best distance is min(i, |x|+|y|+2k) on the unmodified walk; take the max.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3759": {
+  "attempts": 1,
+  "notes": "Sort by nums1, process equal-value groups together, keep a size-k min-heap with a running sum of nums2.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3760": {
+  "attempts": 1,
+  "notes": "Sieve over multiples of each element's first-occurrence value, recording the smallest index per multiple.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3764": {
+  "attempts": 1,
+  "notes": "Take the top limits[i] values per row, pool them, sort descending and sum the top k.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3771": {
+  "attempts": 1,
+  "notes": "Build the minimal closed interval for each character, drop invalid ones and the full string, then greedily pick disjoint intervals by right endpoint and compare the count with k.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3776": {
+  "attempts": 1,
+  "notes": "O(n^2) DP over (leftover element index, next index), trying which of the first three to keep.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3779": {
+  "attempts": 1,
+  "notes": "Sort; on odd days take the largest remaining, on even days take the second largest of the top two remaining, discarding the smallest pizzas as fillers.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3785": {
+  "attempts": 1,
+  "notes": "Offset copy[0] range by intersecting [u_i - d_i, v_i - d_i] over all i, where d_i = original[i]-original[0], and count the integers.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3786": {
+  "attempts": 2,
+  "notes": "Interval DP where dp[i][j][c] is the longest palindromic subsequence with at most c ops, pairing ends at circular distance cost. The first attempt used numpy, which the sandbox lacks, so I rewrote it in pure Python.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3791": {
+  "attempts": 1,
+  "notes": "Max segment tree over baskets, descend to the leftmost basket with capacity >= fruit and zero it out.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3793": {
+  "attempts": 1,
+  "notes": "Enumerate distinct substrings of s and t, test each concatenation for palindromicity, keep the longest.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3794": {
+  "attempts": 1,
+  "notes": "Each potion's start time is the previous start plus max over i of (pre[i+1]*mana[j-1] - pre[i]*mana[j]), taken in O(n*m) (numpy if available, plain Python otherwise). The slowest test took 3.0s, so there is some margin under the 10s limit.",
+  "statement_issue": "The examples contain a table that loses its formatting in text, but the rules are still clear enough to solve.",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3795": {
+  "attempts": 1,
+  "notes": "Binary search on k. For each k, run a per-index subset-sum bitmask over the queries covering that index, and check that bit nums[i] is set.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3805": {
+  "attempts": 1,
+  "notes": "Answer is the count of ones plus the maximum, over '1' blocks with a zero block on each side, of the sum of the two neighbouring zero-block lengths.",
+  "statement_issue": "",
+  "status": "pass",
+  "unique_answer": true
+ },
+ "lcbmed_3809": {
+  "attempts": 1,
+  "notes": "Build a set per row, union-find rows whose set intersection size is at least k, and return the number of components.",
+  "statement_issue": "The examples refer to graph images that are not included, but the answers are fully determined by the text.",
+  "status": "pass",
+  "unique_answer": true
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "lcbeasy_3194": "answer not unique (auditor): Docstring says 'the returned array may be in any order', but the tests compare against one specific (ascending) list, so the answer is not unique.",
+ "lcbeasy_3221": "answer not unique (auditor): Docstring says to return the peak indices 'in any order', but the tests compare against one specific (ascending) list, so the answer is not unique.",
+ "lcbhard_2952": "only 4 usable short official tests",
+ "lcbhard_3376": "only 4 usable short official tests",
+ "lcbhard_3436": "only 3 usable short official tests",
+ "lcbhard_3571": "blocking statement defect (auditor): Lost subscripts: the path condition reads 'x_i < x_i + 1 and y_i < y_i + 1', which is always true. Taken literally, any list of given points is a path, which contradicts every expected value (e.g. 3 rather than 10 for n=10, k=4). The intent (x_i < x_{i+1}, y_i < y_{i+1}) can be recovered from 'incre",
+ "lcbmed_3031": "only 4 usable short official tests",
+ "lcbmed_3234": "answer not unique (auditor): The docstring says to return good indices 'in any order', so several lists are acceptable, but the asserts compare with == against one specific ordering. The formula also has flattened subscripts ('a_i^bi', '^ci'), though the examples keep the meaning clear.",
+ "lcbmed_3383": "only 4 usable short official tests",
+ "lcbmed_3388": "only 4 usable short official tests",
+ "lcbmed_3453": "answer not unique (auditor): Docstring says to return all valid strings 'in any order', but the tests compare exact lists in lexicographic order, so many correct return values exist.",
+ "lcbmed_3591": "only 2 usable short official tests"
+}

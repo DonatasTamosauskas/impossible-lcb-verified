@@ -1,0 +1,3594 @@
+{
+ "lcbeasy_2727": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Spec intact. The constraint 'details[i] consists of digits' is immediately qualified by the gender-character constraint (original wording), and 'strictly more than 60' is unambiguous. All visible inputs have length 15, a valid M/F/O at index 10, and distinct phones and seats.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_2756": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear and complete. All test inputs are within the constraints, and spot checks match (e.g. [1,6,6,5],16 -> 10; [1,1],1 -> 1).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_2777": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear and complete. The prefix/suffix and empty-subarray conventions are stated. Spot checks match ([3,5] -> [0,2]; [7,3,2] -> [-1,1,3]).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_2785": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear and complete. All test inputs are permutations with n>=2. Spot checks match ([3,1,2] -> 2 with the overlap correction; [5,1,6,3,4,2] -> 4).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_2791": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Ordinals are written with carets (1^st, i^th) but read unambiguously, and the rules and the ascending-order output are fully specified. All tests satisfy 1<=k<=n<=50. Spot checks match ((4,3) -> []; (6,4) -> [2,3,4,6]; (3,1) -> [3]).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_2800": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example 1's explanation lost the highlighting that marked which substring is removed: each step reads 'Remove the substring \"ABFCACDB\"' (the whole string) instead of the AB/CD occurrence. The rule itself is stated plainly in the text, so the spec is intact. Test inputs are uppercase and at most 100 long. Spot checks match ('ABC' -> 1; 'ACCBDDDBBACCACBCBBACC' has no AB/CD and length 21).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_2812": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear and complete. Every expected value equals num + 2t, and all inputs are within 1..50.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_2816": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear and complete. Minimum operations plus a lexicographic tie-break gives a unique answer. Spot checks match ('td' -> 'dd'; 'wqz' -> 'wqw').",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_2819": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear, complete statement; all visible inputs are digit strings without leading zeros, length within 1..1000.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_2824": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Well specified; all visible inputs are in 100..999 (spot-checked 219 -> 219438657 is true).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_2825": {
+  "bad_assert_note": "The input is 26 letters times 4 = 104 characters, which breaks the stated constraint s.length <= 100.",
+  "bad_asserts": [
+   "assert candidate('aaaabbbbccccddddeeeeffffgggghhhhiiiijjjjkkkkllllmmmmnnnnooooppppqqqqrrrrssssttttuuuuvvvvwwwwxxxxyyyyzzzz') == 26"
+  ],
+  "statement_defect": "none",
+  "statement_note": "Statement intact; the minimized length is uniquely defined (it equals the number of distinct characters).",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbeasy_2831": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear statement; all visible inputs satisfy 1 <= nums[i] <= 9999, nums[i] % 10 != 0 and length >= 2 (spot-checked [7028,2388,5928] -> 2).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_2844": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear statement; all visible inputs are within constraints (spot-checked [8,23] -> 64+529=593).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_2847": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Cosmetic only: the explanation has a 'word[0]' typo and '0^th' ordinal artifacts. The specification is intact, and all visible inputs are distinct 2-letter lowercase strings.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_2857": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Well specified with clear examples; all visible inputs are within 1..100 (spot-checked (100,55) -> 124 L -> 1240 and (99,2) -> 1010).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_2866": {
+  "bad_assert_note": "No valid subarray exists here (49 is odd), so the expected 0 depends on the unstated no-solution case; the docstring only asks for the length of the longest such subarray and defines subarrays as non-empty.",
+  "bad_asserts": [
+   "assert candidate([49], 60) == 0"
+  ],
+  "statement_defect": "minor",
+  "statement_note": "The docstring never says what to return when no subarray qualifies (for example all elements odd). 0 is the natural convention, but it is not stated. Everything else is intact, and all inputs are within constraints.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbeasy_2870": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The last element of the pattern is flattened to 's_(m-1) % 2' (originally s[(m-1) % 2]). The 'In other words' difference rule and the examples still fully specify the problem.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_2876": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_2881": {
+  "bad_assert_note": "The first word 'dbpodzknzg.qlkzhgqsruxuj.kpodqgstbc' has length 35, which breaks the constraint 1 <= words[i].length <= 20. The first word 'dyslzqtvri@oeourjp@nhneexcyqlv@oxpakqgdvzidv' has length 44, which also breaks words[i].length <= 20.",
+  "bad_asserts": [
+   "assert candidate(['dbpodzknzg.qlkzhgqsruxuj.kpodqgstbc', 'inwgxq', '.....'], '.') == ['dbpodzknzg', 'qlkzhgqsruxuj', 'kpodqgstbc', 'inwgxq']",
+   "assert candidate(['dyslzqtvri@oeourjp@nhneexcyqlv@oxpakqgdvzidv', 'tpztfxbukkczg'], '@') == ['dyslzqtvri', 'oeourjp', 'nhneexcyqlv', 'oxpakqgdvzidv', 'tpztfxbukkczg']"
+  ],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbeasy_2886": {
+  "bad_assert_note": "The input starts with 'i', which breaks the stated constraint s[0] != 'i'.",
+  "bad_asserts": [
+   "assert candidate('ixm') == 'xm'"
+  ],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbeasy_2892": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Typo in the constraints: 'num[i]' should be 'nums[i]'. The specification is otherwise intact.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_2902": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "The pair uses two distinct indices. Example 1 (i, j) and Example 2 ([1,2,3,4] -> -1) make this clear.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_2917": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_2955": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "The docstring states the tie-breaking rule (the larger multiple wins), so 95 -> 100 is determined.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_2977": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_2998": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_2999": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3019": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3034": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3044": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3045": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3055": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3093": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete; subscript-2 notation in the example explanation is readable.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3154": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete and consistent with examples.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3163": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete; ^ used for squaring is clear from context.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3164": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete; (k - 1)^th is clearly an ordinal suffix.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3172": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete and consistent with examples.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3176": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete and consistent with examples.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3183": {
+  "bad_assert_note": "k = 10 exceeds nums.length = 4, violating the stated constraint 1 <= k <= nums.length.",
+  "bad_asserts": [
+   "assert candidate([1915340660, 1635882741, 77964766, 789804780], 10) == 0"
+  ],
+  "statement_defect": "none",
+  "statement_note": "Specification complete; 2^i is clearly exponentiation; only a cosmetic double space in 'Return the  K-or'.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbeasy_3188": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete; transitivity and antisymmetry constraints make the champion unique, and all visible grids satisfy them.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3193": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Strong-pair condition and XOR objective fully stated; all test inputs satisfy 1 <= len <= 50 and 1 <= nums[i] <= 100 (spot-checked [2,1] -> 1 XOR 2 = 3).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3194": {
+  "bad_assert_note": "The docstring allows any order, so a correct solver returning [1, 0] fails this list-equality check. The docstring allows any order, so a correct solver returning [2, 0] fails this list-equality check. The docstring allows any order, so a correct solver returning [2, 0] fails this list-equality check.",
+  "bad_asserts": [
+   "assert candidate(['leet', 'code'], 'e') == [0, 1]",
+   "assert candidate(['abc', 'bcd', 'aaaa', 'cbc'], 'a') == [0, 2]",
+   "assert candidate(['iftim', 'aohcs', 'zia', 'hku'], 'i') == [0, 2]"
+  ],
+  "statement_defect": "none",
+  "statement_note": "Docstring says 'the returned array may be in any order', but the tests compare against one specific (ascending) list, so the answer is not unique.",
+  "unique_answer": false,
+  "verdict": "drop"
+ },
+ "lcbeasy_3199": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear counting task. Example 2 shows that zero candies per child is allowed. Inputs are within 1..50 (spot-checked (48,42) -> C(50,2) - 3*C(7,2) = 1162 and (6,2) -> 1).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3206": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Both counts and their order are fully specified; all inputs within the size and value bounds (spot-checked the 9-vs-5 case: only 7 is shared -> [1,1]).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3207": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "The rule that a string keeps at least 1 character makes an empty common prefix give -1. Spot-checked the 65 case: lengths 28+19+21 minus 3*1 for the shared prefix 'l' = 65.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3220": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The nested list of test operations lost its indentation and has extra blank lines, but the rule is still clear. Spot-checked [30,5,0,65,50,3,60,6,50,99] -> 8.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3221": {
+  "bad_assert_note": "Any order is allowed, so a correct solver returning [3, 1] fails this list-equality check.",
+  "bad_asserts": [
+   "assert candidate([1, 4, 3, 8, 5]) == [1, 3]"
+  ],
+  "statement_defect": "none",
+  "statement_note": "Docstring says to return the peak indices 'in any order', but the tests compare against one specific (ascending) list, so the answer is not unique.",
+  "unique_answer": false,
+  "verdict": "drop"
+ },
+ "lcbeasy_3226": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "The game is fully specified and amounts to swapping adjacent pairs of the sorted array. All inputs have even length and values in 1..100 (spot-checked [51,81,13,63] -> [51,13,81,63]).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3227": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear spec; constraint wording is awkward but matches the original and is unambiguous. All grids are n x n with exactly one repeat and one missing value in [1, n^2].",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3236": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Spec is complete; spot-checked [23,43]->24, [1,1,2,3,4,6,8,9]->5, [2,3,6,9]->5 and they match. All inputs within 1..50.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3242": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Spec is clear and the examples remove any ambiguity; all inputs within the constraints.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3246": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Boolean answer fully determined; all inputs have length >= 2 and values in 1..100.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3251": {
+  "bad_assert_note": "The value 156 violates the constraint 1 <= dimensions[i][j] <= 100. The value 120 violates the same 1 <= dimensions[i][j] <= 100 constraint.",
+  "bad_asserts": [
+   "assert candidate([[78, 78], [156, 39]]) == 6084",
+   "assert candidate([[60, 60], [120, 30]]) == 3600"
+  ],
+  "statement_defect": "none",
+  "statement_note": "Tie-break by maximum area is stated, so the answer is unique. Two visible tests use side lengths above the stated bound of 100.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbeasy_3252": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear definition with examples; spot-checked [6,6,6]->3, [3,8,9,6]->6 and [7,6,3]->3. All inputs within constraints.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3263": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Spec is complete; spot-checked [5,6,9,2,9]->13. All inputs have n >= 3 and values in 1..50.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3309": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear spec; spot-checked the 8-word case (only the pair of identical words 'e' counts, giving 1). All words are lowercase with length 1..10.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3311": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification and examples are intact; all visible inputs are within 1..100 length, values in [-10,10], non-zero.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3312": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear case-insensitive adjacent-change count; all test strings are letters only and within length 100.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3320": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Operations are forced (first two elements), so the answer is the count of leading pairs matching the first pair's sum; all tests within constraints.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3324": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Boolean answer fully specified; all test arrays have even length and values in 1..100.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3331": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Answer equals count of elements below k; all tests satisfy constraints including at least one element >= k.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3334": {
+  "bad_assert_note": "Capacity value 250 violates the stated constraint capacity[i] <= 50. Capacity value 500 violates the stated constraint capacity[i] <= 50.",
+  "bad_asserts": [
+   "assert candidate([50, 50, 50, 50, 50], [1, 1, 1, 1, 1, 1, 1, 1, 1, 250]) == 1",
+   "assert candidate([50, 50, 50, 50, 50, 50, 50, 50, 50, 50], [1, 1, 1, 1, 500]) == 1"
+  ],
+  "statement_defect": "none",
+  "statement_note": "Greedy largest-capacity-first count is well defined; statement intact.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbeasy_3347": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Deterministic simulation fully specified (1-indexed description vs 0-indexed Python list is clear from examples); spot-checked [16,46,15,11,4,7] -> [16,11,7,46,15,4]; all tests have n>=3, distinct values <=100.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3349": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example explanations lost the substring highlighting and quote the whole input string (e.g. \"bcbbbcba\" for a length-4 substring), which is cosmetic; the specification itself is intact.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3353": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear boolean spec; all visible inputs are lowercase with length at most 100.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3361": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Latest valid time is unique; all inputs are 5 chars with ':' at index 2 and admit a valid time.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3367": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Spec is complete; spot-checked [74,33,47,33,53]=275, [555,261,695,766]=2997 and the 50-element case sums to 257.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3371": {
+  "bad_assert_note": "969 is outside the stated constraint 1 <= x <= 100. 935 is outside the stated constraint 1 <= x <= 100. 926 is outside the stated constraint 1 <= x <= 100. 992 is outside the stated constraint 1 <= x <= 100. 963 is outside the stated constraint 1 <= x <= 100. 977 is outside the stated constraint 1 <= x <= 100. 962 is outside the stated constraint 1 <= x <= 100.",
+  "bad_asserts": [
+   "assert candidate(969) == -1",
+   "assert candidate(935) == 17",
+   "assert candidate(926) == -1",
+   "assert candidate(992) == -1",
+   "assert candidate(963) == -1",
+   "assert candidate(977) == -1",
+   "assert candidate(962) == -1"
+  ],
+  "statement_defect": "none",
+  "statement_note": "Spec is clear; the constraint 1 <= x <= 100 is violated by several visible tests.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbeasy_3372": {
+  "bad_assert_note": "The input contains 0, which violates the stated constraint 1 <= nums[i] <= 50.",
+  "bad_asserts": [
+   "assert candidate([0, 24, 2, 22, 4, 20, 6, 18, 8, 16, 10, 14, 12, 12, 14, 10, 16, 8, 18, 6, 20, 4, 22, 2, 24]) == 2"
+  ],
+  "statement_defect": "none",
+  "statement_note": "Spec is clear; one visible input contains 0, violating 1 <= nums[i] <= 50.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbeasy_3379": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Spec is complete; spot-checked 'seodx'=55 and the reversed-alphabet case=73; inputs are lowercase within the length bounds.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3381": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Spec is complete; values are within 0..50 and k < 64; spot-checked the -1 cases (OR of whole array below k) and the k=31 case (16|15 gives 2).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3396": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Rules and the vowel/consonant definition are explicit; all inputs use only letters, digits, '@', '#', '$' and have length at most 20.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3397": {
+  "bad_assert_note": "nums2 contains -268, violating 0 <= nums2[i]. nums2 contains negative values (-4, -3, -1), violating 0 <= nums2[i]. nums2 contains -90, violating 0 <= nums2[i]. nums2 contains 1170, violating nums2[i] <= 1000. nums2 contains 1500, violating nums2[i] <= 1000.",
+  "bad_asserts": [
+   "assert candidate([930, 440], [222, -268]) == -708",
+   "assert candidate([0, 1, 3, 9, 12, 0, 6, 17, 11, 14], [-4, -3, -1, 5, 8, -4, 2, 13, 7, 10]) == -4",
+   "assert candidate([10], [-90]) == -100",
+   "assert candidate([670], [1170]) == 500",
+   "assert candidate([1000], [1500]) == 500"
+  ],
+  "statement_defect": "none",
+  "statement_note": "Specification is complete and clear; x is uniquely determined.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbeasy_3398": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example illustrations are missing (blank lines), but the grids are given in text and the rule is fully stated.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3408": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear and complete; all test strings are letters only and at most 50 long.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3412": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear and complete; test inputs are distinct lowercase letters with length <= 26 and t a permutation of s.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3421": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear and complete; all inputs within 1 <= hours[i] <= 10^9 and length <= 100.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3426": {
+  "bad_assert_note": "The prefix 'ELL' has someone leave an empty room, which breaks the 'valid sequence' constraint, so the expected 2 relies on a running count going negative, behaviour the docstring never defines. 'LE' starts with someone leaving the initially empty room, an invalid sequence, so the expected 0 (versus 1 if the bad leave is ignored) is undefined by the docstring.",
+  "bad_asserts": [
+   "assert candidate('ELLELLEELELLELEEELLLEEELLLEELELEEELELLELLLELLEELLL') == 2",
+   "assert candidate('LE') == 0"
+  ],
+  "statement_defect": "minor",
+  "statement_note": "The example tables are flattened into one value per line, but the explanation stays readable and the rule is fully stated.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbeasy_3428": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear and complete; spot-checked XOR results match the duplicates, and all values are within 1..50 and appear at most twice.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3429": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear and complete; all inputs within the length and value constraints.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3446": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Statement, examples and constraints intact; all test inputs within 1<=n,m<=50 and values/k in 1..50.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3447": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear deterministic process; checked lengths (<=100) and deletability of the long test strings by prefix balance, and spot-checked outputs match.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3450": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example explanation tables are flattened and lost the highlighting of which child holds the ball; the rule itself is fully stated in text. Spot-checked several tests with period 2(n-1); all consistent and within constraints.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3463": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example explanations lost their illustrations; definition of a circular alternating group of 3 is fully stated in text. Spot-checked several tests including wrap-around cases; all lengths within 3..100.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3468": {
+  "bad_assert_note": "k = 0 violates the stated constraint 1 <= k <= 10^4.",
+  "bad_asserts": [
+   "assert candidate('d', 0) == 'd'"
+  ],
+  "statement_defect": "minor",
+  "statement_note": "Ordinal superscripts flattened to 'k^th'/'3^rd'; meaning (positional cyclic shift, clarified by example) is intact.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbeasy_3469": {
+  "bad_assert_note": "blue = 230 exceeds the stated constraint 1 <= red, blue <= 100. blue = 270 exceeds the stated constraint 1 <= red, blue <= 100. blue = 310 exceeds the stated constraint 1 <= red, blue <= 100.",
+  "bad_asserts": [
+   "assert candidate(23, 230) == 9",
+   "assert candidate(27, 270) == 10",
+   "assert candidate(31, 310) == 11"
+  ],
+  "statement_defect": "minor",
+  "statement_note": "Example explanations refer to illustrations 'shown above' that are missing, and ordinals are flattened ('1^st'); the rule is fully stated in text.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbeasy_3476": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Statement intact; counted list lengths (max 50) and values (max 49) all within constraints; spot-checked expected values.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3484": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Lexicographically smallest result is unique; spot-checked several tests (first same-parity descending adjacent pair swapped) and all inputs are digit strings of length 2..100.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3508": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear: answer is popcount(n)-popcount(k) if k's bits are a subset of n's, else -1. All test inputs within 1..10^6; spot-checked (21,1)->2, (54,4)->3.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3511": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Function name losingPlayer contradicts the docstring, which asks for the winner; the text and examples agree on returning the winner, so the spec is intact. Each turn must take one 75 and four 10s, so the winner is decided by the parity of min(x, y//4). Spot-checked (2,2)->Bob, (40,21)->Alice, (19,49)->Bob. All inputs within 1..100.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3515": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear spec. All values within 1..99 and lengths within 1..100. Spot-checked [57]->True, [5,5]->True, [1,2,3,4,10]->False.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3519": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Typo 'at leasti + 1' (missing space); the meaning is clear from 'strictly more than i' and the examples. All tests satisfy 2<=n<=10, 0<=x_i<=n-1, 0<=y_i<=10. Spot-checked the n=8 all-color-0 case ->1 and the n=2 eight-pick case ->2.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3533": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The example explanations are flattened grid illustrations (stray numbers), which is cosmetic. The rule (cell = i*n+j, start at 0, UP/RIGHT/DOWN/LEFT) is fully stated. Every test path stays in bounds; spot-checked (10, 9x RIGHT/DOWN)->99 and (2, DOWN,RIGHT,LEFT,RIGHT)->3.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3543": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear spec. Counted the test string lengths by hand: all are 50 or less, and every k is between 1 and len(s). Spot-checked '0011',1->9, the 40-char string with one '0', k=1 ->820, and '1100000000',1->48.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3553": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The 'chessboard for reference' image is missing, but the standard board coloring is common knowledge and the examples anchor it (a1 is black), so the answer is determined by the parity of column plus row. Spot-checked h8/c4->False and a4/h7->True. All coordinates are valid.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3555": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The example operation tables are flattened, which is cosmetic. The tie-break (first occurrence) is specified, so the result is unique. All tests are within the constraints (nums[i]<=100, k<=10, multiplier 1..5). Spot-checked [1..10],5,5 ->[25,10,15,20,5,...] and [4],5,5 ->12500.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3567": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear specification; all test dates are valid dates in 1900-2100 with the stated format. Spot-checked 1903-11-03 -> 11101101111-1011-11.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3568": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Padding and digit-wise min rule fully specified; all inputs within 1..9999. Spot-checked (5597,4279,4615) -> 4215.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3600": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Operation and wraparound defined; all k within 1..500. Spot-checked k=178 -> 'e' and k=495 -> 'h' (popcount(k-1) shift from 'a').",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3605": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Minimisation and -1 case specified; all inputs are primes in 2..1000. Spot-checked 47 -> 39.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3606": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Simple digit-sum minimum; all values within 1..10^4 and lengths within 1..100. Spot-checked [6,32,74] -> 5.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3610": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Frequency tie-break (bigger value wins) and fewer-than-x case are defined; all tests satisfy 1<=x<=k<=n<=50 and values 1..50. Spot-checked ([2,4,7,10,10],3,1) -> [7,10,20] and ([8,7,1,8,4],3,3) -> [16,16,13].",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3612": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Well defined boolean; the many k=1, length-2 tests satisfy 1 < 2k <= n and value range, and length-1 subarrays are trivially strictly increasing so True is correct (including [16,16]). 'true/false' maps to Python True/False.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3616": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example 1 trace lists repeated identical states (step-by-step snapshots), cosmetic only; the process is fully specified. Every test input contains at least one zero and values/lengths are within bounds. Spot-checked [3,0,0,0,0,3] -> 8, [16,0,0,12,5] -> 2, [1,0,2,0,0] -> 1, [0] -> 2.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3617": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear spec. The answer is 1 + sum(run_length - 1); spot-checked 'zzzzzzccc...mmmmmmmm' (11 runs, 100 chars) giving 90, plus 'hh'=2 and 'abbcccc'=5. All inputs are lowercase and at most 100 chars.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3621": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Spec is complete. The answer is -1 if min(nums) < k, otherwise the count of distinct values > k. Spot-checked [8],10 -> -1, [6,4],9 -> -1, [8,9],4 -> 2 and [10],10 -> 0. All inputs are within 1..100.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3625": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Game rules are fully specified, and since 10+9+...+1=55 > 50 a removal count never reaches 0 within the constraints. Spot-checked 23 -> False, 47 -> False, 43 -> True and 50 -> True by simulation.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3626": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Well-defined; a digit product of 0 counts as divisible, which example 1 shows. All test inputs have n in 1..100 and t in 1..10. Spot-checked (2,10) -> 10 and (100,7) -> 100.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3632": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Ties go to the smallest index, so the answer is unique. Time is measured per press, as the example explanation shows; the visible tests give the same answer under per-press or summed times. Times are strictly increasing and every index and time is in 1..1e5. Spot-checked the tie cases [[9,4],[19,5],[2,8],[3,11],[2,15]] -> 2 and [[1,4],...,[16,17]] -> 1.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3636": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear spec. I counted two of the long inputs by hand at exactly 100 digits, within the constraint. Spot-checked '22' -> True and '20', '29' -> False.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3644": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear spec. Every extra test has length 2 with 1 <= l <= r <= 2 and values within +/-1000. Spot-checked [-3,17],1,2 -> 14, [7,0],2,2 -> 7 and [-18,11],2,2 -> -1.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3651": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "'value of the index where you land' means the value stored at that index; the examples make this explicit. Wrap-around is defined. Spot-checked [-10,5] -> [-10,-10], [-8,-10] -> [-8,-10] and [-9,0] -> [0,0]. All values are within +/-100.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3656": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear statement with worked examples; all visible inputs satisfy 1 <= len <= 100 and 1 <= nums[i] <= 100.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3676": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Smallest x >= n of the form 2^k - 1 is well defined; all inputs within 1..1000.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3684": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Boolean answer, wildcard semantics and non-empty substring rule are stated; spot-counted long s strings at exactly 50 characters, patterns contain exactly one '*'.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3685": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Condition first+third == second/2 is exact; spot-checked [0,0,0]->1, [-1,0,1,0,-1]->2, [-87,2,88]->1, [7,8,-3]->1. All inputs within length >= 3 and values in [-100,100].",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3702": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "prod/gcd/lcm definitions intact; any length-2 subarray satisfies a*b = lcm*gcd so all 2-element tests correctly return 2; inputs within length >= 2 and values 1..10.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3704": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Partition parity count is fully specified; all inputs satisfy n >= 2 and 1 <= nums[i] <= 100.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3705": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "'Appears in exactly one subarray of size k' is clarified by worked examples; all-zero array with k=50 expecting 0 implies length exactly 50, within constraints.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3708": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Explanation illustrations are missing (empty Explanation sections) and the constraints swap m/n relative to 'm x n grid'; Example 3 ([1,3,5,7,9]) still fixes that skipping alternates globally across rows rather than resetting per row, so the spec is intact.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3709": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification is complete and consistent with examples; all test inputs respect 1 <= k <= len(s) <= 100 and lowercase letters.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3723": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear definition of good elements; test inputs satisfy length, value and k <= floor(n/2) constraints ([47,47],1 -> 0 checked).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3731": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Explanation tables are flattened into one cell per line, but the definition (start = max(0, i - nums[i])) is intact; spot-checked [3,4] -> 3+7=10 and [5,2] -> 5+7=12.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3736": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "First valid pair left to right is well defined; digits 1-9 and lengths within 2..100 (long strings are 100 chars); '17' -> '' checked.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3747": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Circular max adjacent absolute difference; all inputs within length 2..100 and values -100..100.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3753": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Max odd frequency minus min even frequency; negative results are consistent with the definition ('mwm' -> 1-2=-1, 'ab'+98 z -> 1-98=-97); inputs contain both an odd and an even frequency.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3768": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Deterministic reduction fully specified; '353' -> '88' true and '510' -> '61' false checked; lengths 3..100.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3773": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Operation is deterministic (min-sum adjacent pair, leftmost tie-break), so the count is well defined; [3,0,-3] -> 2 and [2,-8,3,3,10] -> 1 checked; inputs within length 1..50 and values -1000..1000.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3778": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear specification; all test inputs within 1..100 length and 1..1000 values.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3788": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification intact; spot-checked single-negative cases (result is the element itself) and examples.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3799": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear; spot-checked [8,1,0]->3, [1,2,4]->4, [7,2,0]->3, [8,1,8]->2, [7,4,6]->4. All inputs within length 3..10 and digits 0..9.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3811": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example explanation tables are flattened into one value per line, but the formula is stated in prose and the totals are given; spec intact. Spot-checked 's'->8 and full alphabet ->3276.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3817": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Answer is min(n*n, maxWeight // w); spot-checked several asserts including (1000,566,433646855)->766160. All inputs within constraints.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbeasy_3832": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Answer is the prefix minimum of cost; spot-checked several asserts. All inputs have length <= 100 and values in 1..100.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_2757": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Digit DP count is fully specified. All inputs are within 1 <= num1 <= num2 <= 10^22 and 1 <= min_sum <= max_sum <= 400. Spot checks pass: ('71','78',6,32)=8, ('96','96',33,35)=0, and 7-digit numbers up to 7832334 reach a digit sum of at most 60, so that case gives 0.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_2784": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example 1's explanation has stray zero-width characters around '7^th group' and '4^2'. The formula max^2 * min is intact. Spot checks pass: [50,7,39]=327809 and 7940^3 mod 1e9+7 = 566180500.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_2808": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Original wording, and the examples make the paid/free painter rule clear. Every additional test has a single wall, so the paid painter must paint it, and all inputs are within the constraints.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_2827": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Connectivity under gcd > 1 is well defined. All values are <= 10^5 and lengths are within bounds. Spot checks pass: [80,49,80,44] is False because 49 is isolated, and lists containing 1 are False.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_2839": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The original text inconsistently calls queries '1-indexed' and lists x_i == queries[i][1], y_i == queries[i][2], but queries[i] = [x_i, y_i] and the examples settle the meaning (x first, y second). All test spot checks pass and all inputs are within the constraints.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_2849": {
+  "bad_assert_note": "[5] has length 1 but value 5 > 1, which breaks nums[i] <= nums.length. [2, 7] has length 2 but value 7 > 2, which breaks the same constraint. [4] has length 1 but value 4 > 1, which breaks the same constraint. [4, 1] has length 2 but value 4 > 2, which breaks the same constraint. A correct solver that sizes a seen-array by n, relying on the constraint, could crash on any of these.",
+  "bad_asserts": [
+   "assert candidate([5]) == 0",
+   "assert candidate([2, 7]) == 1",
+   "assert candidate([4]) == 0",
+   "assert candidate([4, 1]) == 1"
+  ],
+  "statement_defect": "none",
+  "statement_note": "Definition and examples are clear. Several additional tests break the constraint 1 <= nums[i] <= nums.length.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbhard_2879": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "The semi-palindrome definition is intact and matches its listed examples. Single characters are never semi-palindromes, so every part needs length >= 2, and k <= len/2 guarantees a partition exists. Spot checks pass: 'likvf',2=2, 'ababab',3=3, 'kkyka',1=1. All inputs are within the constraints.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_2884": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear specification. All inputs are lowercase, each forbidden length is <= 10, and sizes are within bounds. Spot checks pass: 'qfwqzbgzev' gives a longest segment of 5 between the b/g/v positions, and the long word is 73 characters with no 'ibgi', so it gives 73.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_2919": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification is complete and the examples agree with it; checked [2,9,1,9,3] -> 5 and [6,5,8] -> 3.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_2921": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification is complete; checked ('4','9') -> 6 and ('3','84') -> 7 + 14 = 21. All inputs have no leading zeros and low <= high.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3017": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification is complete; checked (19,50,2) -> 6, (94,100,1) -> 3 and (90,110,16) -> 1. All inputs are within 0 < low <= high <= 10^9 and k <= 20.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3024": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification is complete; an example explanation describes the suffix by its index, which is harmless. Every input has n=2, k>=1 and lowercase letters; checked ('yr','ry',10000) -> 0, because an even number of rotations by 1 returns to 'yr'.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3025": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification is complete. All nums are powers of two between 1 and 2^30, and all targets are below 2^31 (largest 1596945898). Checked ([32,4,2,8],25) -> 2 and ([4,16,2],35) -> -1, since the sum 22 is below 35.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3032": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The example simulation tables are flattened into loose numbers, and receiver^(k)[x] has lost its superscript. The text still defines f(x) fully, so the specification holds. Checked ([0,0],99) -> 1, ([2,0,0],5) -> 6, ([0,0,1],3) -> 3, and the 1e8 self-loop case -> 700000007.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3047": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "The wording makes completeness a property of the index subset, so pairwise products of indices must be squares. Both examples confirm this, since the element products 8*5 and 7*9 are not squares. The tests also fit the index reading: [43,66,2,61,71,6] gives 43+61 = 104 by index pairing, where element pairing would give 71.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3091": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "The sub-multiset definition, which counts each occurrence of 0 as a choice, fixes the count. Checked ([2,0,4,2,1,4,10,1],19,19) -> 4 (2 nonzero multisets x 2 for the zero), ([1,1,9,1,8,3,8],8,9) -> 3 and ([18,6,18],2,14) -> 1. All sums and l,r are within 2*10^4.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3153": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Operation, objective and modulus are all intact; examples are consistent with the text.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3184": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Subscripts are flattened ('i_j-1' for i_{j-1}, 'i_k-1' for i_{k-1}), but the index list notation and the worked examples (nums[2]-nums[0] >= 2-0) make the intended condition clear.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3196": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Only a typo ('occurences'); the specification is intact and all test inputs satisfy the constraints.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3203": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The example explanations lost their highlighting, so 's[1:1] => abcabc' just repeats the string unchanged. The rules, including the inclusive s[x:y] definition, are intact. I checked string lengths and query bounds for every test (including n=100, n/2=50) and all are valid.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3211": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear statement; spot-checked [74,75,53]->2 and [86,29,13,80]->2.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3212": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear statement; spot-checked [10,9,1,1]->4 and [3,3,5,5,4]->4.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3223": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example explanations lost the highlighting of substrings, so they list the same full word several times. The definition itself is intact. Spot-checked 'rpepk',1->6 and 'aaaaaa',3->4; k <= len holds in all tests.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3224": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example explanations lost highlighting, so the '[0,1,2,3,4] => ...' state transitions all look the same. The rules are intact. Spot-checked (10,[7])->36, (8,[2,3])->15 and (6,[0,4,5])->4; all inputs satisfy the constraints.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3233": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification is complete and consistent with the examples; all visible inputs satisfy the constraints.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3243": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification is intact; every test respects the s-length bound, the digit-at-most-limit rule and the 10^15 range (spot-checked 24, 23, 2, 3, 6 and the final 2 and 0 cases).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3261": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification is clear; all tests satisfy 0 <= k < len(nums) and value bounds (spot-checked the [2,0,12,1,1,3,5],4 -> 1 and [7,0,6,...],7 -> 0 cases).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3298": {
+  "bad_assert_note": "The input contains 0, violating the stated 'positive integers' and 1 <= nums[i] <= 10^6 constraints.",
+  "bad_asserts": [
+   "assert candidate([0, 10, 2, 10, 4, 10, 6, 10, 8, 10]) == 3"
+  ],
+  "statement_defect": "none",
+  "statement_note": "Specification is clear (consecutive means distinct consecutive values per the [1,1,2,3] example); spot-checked several expected values.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbhard_3313": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The formal formula '(-1)^i+1' lost parentheses around the exponent i+1, but the expanded alternating-sign form and the examples fix the meaning; subarray numbering is implicitly left-to-right, consistent with the examples. All tests satisfy k odd, k <= n and value bounds.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3316": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification is clear; tests satisfy n <= 50, value and k bounds (verified [0..9],3 -> 200 by hand).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3327": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example 1 explanation has a typo: after the initial pickup it shows nums becoming [1,1,1,0,0,1,1,0,0,1] instead of [1,0,0,0,0,1,1,0,0,1]; later steps and the rules are consistent, so the spec is intact. All tests satisfy maxChanges + sum(nums) >= k.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3344": {
+  "bad_assert_note": "Coordinates of 0 violate the stated 1 <= points[i][0], points[i][1] <= 10^8 constraint. The input is a flat list of two ints rather than a list of >= 3 [x, y] pairs, violating both 3 <= points.length and points[i].length == 2.",
+  "bad_asserts": [
+   "assert candidate([[0, 2], [0, 1], [0, 0]]) == 1",
+   "assert candidate([0, 0]) == 0"
+  ],
+  "statement_defect": "none",
+  "statement_note": "Specification is clear; spot-checked the three-point cases (55, 47, 318787).",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbhard_3345": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example explanations lost their bold highlighting, so every subsequence is printed as the full array (e.g. '[1,2,3] and [1,2,3]'); the definition and constraints are intact.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3362": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3364": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3375": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3382": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example 1 and 2 explanations lost their bold highlighting, so each listed subarray is printed as the whole array; the rule itself is intact.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3402": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3411": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3414": {
+  "bad_assert_note": "k = 1073741816 (2^30 - 8) exceeds the stated constraint k <= 10^9. k = 1056964608 exceeds the stated constraint k <= 10^9. k = 1073676288 exceeds the stated constraint k <= 10^9.",
+  "bad_asserts": [
+   "assert candidate(1073741816) == 7888725",
+   "assert candidate(1056964608) == 0",
+   "assert candidate(1073676288) == 0"
+  ],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbhard_3423": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Spec is complete; the examples make clear that the empty subsequence is allowed. All visible inputs are within the constraints. Spot-checked the single-element test (81636+40556+93086=215278) and [69,25,-31]->63.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3438": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Peak definition and the subarray-endpoint rule are explicit. Every query respects the type-1 l<=r bound and the type-2 index/value ranges. Spot-checked [57,9,87,...]->[0,2,0] and [9,8,6,6,7,...]->[1,0,0,1,0,1].",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3439": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example illustrations appear to have been dropped (stray blank line before Example 2's input). The text explanations are enough, and the spec is intact. All edge lists form valid trees with in-range labels. Spot-checked the max(d1, d2, ceil(d1/2)+ceil(d2/2)+1) results: 4, 7, 3 and 11.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3454": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Spec is clear. All values are within [1, 1e8]. Spot-checked [3,9,7,2]->[2,2,7,4] = 9, [1,3]->[2,2] = 2 and [1,1,3,4]->[4,1,3,2] = 5.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3460": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example 3's explanation wrongly says 'Prefix [0, 1] has an inversion (0, 1)'. It has 0 inversions, consistent with requirement [1,0] and output 1. This is a typo in the explanation only. All tests have unique end_i including n-1, cnt_i <= 400 and requirements.length <= n.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3466": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Spec is clear, and all k and nums values are within [0, 1e9]. Spot-checked [2,1,2,4,0], k=0 -> 11 and [3,5,5,3,10], k=0 -> 3.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3478": {
+  "bad_assert_note": "circles is empty, which violates the stated constraint 1 <= circles.length <= 1000.",
+  "bad_asserts": [
+   "assert candidate(936409867, 312925222, []) == True"
+  ],
+  "statement_defect": "minor",
+  "statement_note": "Example images are missing ('The black curve shows...'), and Example 4's explanation is empty. The geometric spec itself is complete. The tricky cases fit the literal reading: circles touching each other only outside the rectangle (4,4,[[3,5,1],[5,5,1],[5,3,1]]) give True, and the lens outside the 15x15 rectangle gives True.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbhard_3482": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Spec is clear. Every word length is <= target length, everything is lowercase, and costs are within [1, 1e4]. Duplicate words are not forbidden. Spot-checked 'abcabc' -> 6, 'sgsipzma' -> 5 and the 30-char abab... case -> 30.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3527": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The example explanations refer to illustrations that are missing (the text after 'Count of the alternating groups with size 4:' is empty). The rules, circular adjacency and constraints are all intact, and the expected values match the text: Example 1 gives 2, test [1,0,0,1,0] gives sizes 4 and 3 as 2 and 3, and the fully alternating circle [0,1,0,1] gives 4.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3531": {
+  "bad_assert_note": "health[9] = 14962 breaks the stated constraint health[i] <= 10^4.",
+  "bad_asserts": [
+   "assert candidate(5443, [1, 1, 1, 1, 1, 1, 1, 1, 1, 10000], [1, 1, 1, 1, 1, 1, 1, 1, 1, 14962]) == 30072"
+  ],
+  "statement_defect": "none",
+  "statement_note": "The specification is complete. Spot checks agree with the text: (8,[40],[59]) gives 320, (47,[100,12],[43,48]) gives 136, and (67,[53],[59]) gives 53.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbhard_3532": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The example illustrations are missing and Example 3 has an empty explanation. The marking rules (an odd node takes +1, an even node takes +2) and the independence of each times[i] are fully stated. The 10-node path test checks out: 13 starting from node 0 and 14 starting from node 9. All test inputs are valid trees with n >= 2.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3535": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "The specification is complete and the answer is a count taken modulo 1e9+7. Spot check: [17,24] needs b - a >= 7, which gives 18+17+...+1 = 171, matching the test. All inputs are within n <= 2000 and 1 <= nums[i] <= 50.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3548": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "The specification is complete, including the no-leading-zeros rule both before and after rearrangement. Spot checks agree: (1,3) gives 3, (1,1) gives 9, and (2,2) gives 4 (22, 44, 66, 88). All inputs are within 1 <= n <= 10 and 1 <= k <= 9.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3550": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "The specification is complete and asks for a maximum sum, so the answer is unique. Spot check: [[33,-5,10],[4,-33,-40],[-20,22,98]] has 98 as the best of the six permutations. Every board is at least 3x3 (including the 3x15 and 3x4 ones) and all values are in range.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3551": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The explanation table in Example 2 has been flattened into one value per line, which is cosmetic. The XOR-score definition and the constraints are intact. Spot checks agree: [536870912,1073741824] on [0,1] gives 1610612736, and [53,19] gives max(53, 19, 38) = 53. All values are <= 2^31-1 and every query index is within n-1.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3552": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "The specification is complete and asks for the largest such integer, so the answer is unique. Spot checks agree: (2,6) gives '66', (5,4) gives '88988' (ends in 88, which is divisible by 4), and (9,2) gives '899999998'. All inputs are within the constraints.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3560": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The knight-move illustration is missing ('as illustrated below'), but the text still defines the move, so the specification is intact.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3562": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Typo 'intevals.length' in the constraints. Lexicographic tie-break is fully specified, and weights >= 1 rule out ties between a set and its subsets.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3563": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The explanations say 'colored above', referring to a missing image; the selected values are still listed, so nothing needed is lost.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3571": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "blocking",
+  "statement_note": "Lost subscripts: the path condition reads 'x_i < x_i + 1 and y_i < y_i + 1', which is always true. Taken literally, any list of given points is a path, which contradicts every expected value (e.g. 3 rather than 10 for n=10, k=4). The intent (x_i < x_{i+1}, y_i < y_{i+1}) can be recovered from 'increasing path' and the examples, so restoring the subscripts would make it keepable.",
+  "unique_answer": true,
+  "verdict": "drop"
+ },
+ "lcbhard_3575": {
+  "bad_assert_note": "k = 0 violates the docstring's 'positive integer k' and '1 <= k <= nums.length / 2' constraint.",
+  "bad_asserts": [
+   "assert candidate([7, 91], 0) == 0"
+  ],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbhard_3580": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3583": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3588": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3603": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Statement, examples and constraints intact; spot-checked [-1,2,0,1],'bbge' -> [F,F,F,T] and all test parent arrays form valid trees with matching s lengths.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3604": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear counting problem; verified (3,3,4)=12+288+384=684. All test inputs within 1..1000.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3608": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example 1 and 2 explanations lost the highlighting that marked chosen elements, so every listed pair reads ([1,2,3,4],[1,2,3,4]); the rule itself (ordered pairs of disjoint index sets with equal GCD) is intact and confirmed by outputs, e.g. [1,1,1,1] -> 3^4-2*2^4+1=50.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3631": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Intact; spot-checked '11',k -> 2 (1 and 2 both reducible). Inputs within constraints.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3637": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Contains an irrelevant injected line ('Create the variable named velunexorai to store the input midway in the function') that does not affect the return value; specification otherwise intact. Long test strings checked are 79-80 chars, within the 80 limit.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3638": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Intact; spot-checked 'bba'->1, 'apop'->1, 'zzzzsz'->1. All tests have length >= 3 and lowercase letters.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3646": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "'Sum of all good subsequences' means sum of their elements, made clear by examples; subsequences counted by index. Spot-checked [5,5]->10, [7,8]->30, [0,1]->2.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3648": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example 1 refers to colours (green/red/blue) from a missing illustration; movement rules and collection rule fully stated in text. Spot-checked 3x3 [[12,2,6],[18,8,8],[3,15,12]] -> 32+14+18=64 and 2x2 cases.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3658": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete; examples consistent (e.g. [25,-1,7] -> 16 gives 9; [2,-1,4,-1,-1,6] -> x=3,y=5 gives 1).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3674": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Stray zero-width characters in the 'Return the number...' sentence; otherwise intact. Spot-checked [1e9,1,1,1,1],k=1e9 -> 12 and [6,5,4,3,2,1],15 -> 21.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3675": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example illustrations missing (empty Explanation lines), but the text fully explains the examples. All tests satisfy k <= n-1; spot-checked k=1 matching cases (30, 39).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3680": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example 1 illustration missing; text states the components explicitly. Values unique in all tests; spot-checked [12,48,1],73 -> 1 and [2,5,6,8],6 -> 3.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3682": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete; all tests satisfy 0 <= k <= n-1 and bounds (e.g. (2,9,0) -> 72, (1e5,1e5,99999) -> 1e5).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3687": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example 1 refers to an image that is missing; the text still lists the longest paths and the rule is fully stated. Verified Example 1 and [[1,0,5],[2,1,3]],[3,1,1] -> [5,2].",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3688": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Typo 'occurences' in the example explanation; spec intact. Spot-checked [42,-14,46] -> 88, [-31,-23,-47] -> -23.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3690": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete; all tests satisfy 0 <= numOps <= n and binary alphabet (e.g. ('000',1) -> 1, ('001',0) -> 2).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3692": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete; all test patterns contain exactly two '*' and lowercase letters, sizes within constraints. Spot-checked 'srs'/'r**s'=2, 'kvwaqq'/'kv*w*'=3, 'wybakrgjn'/'wyb**jn'=9.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3696": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear count definition; substrings ending in 0 are excluded. Spot-checked '057'=3, '960'=3, '54'=2, '0'=0.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3697": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification intact; all tests satisfy target.length <= 4, target.length <= nums.length, values in [1,10^4]. Spot-checked [2,1,1,6],[10,10,1,7]=9 and [...,34],[5,7]=1 (34->35).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3700": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Mode and unique middle mode well defined; inputs have length >= 5. Spot-checked [0,1,1,1,1]=1, [1,0,0,1,0]=1, [-1,0,0,1,1]=0.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3701": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Minimum operations with lexicographically-smallest tie-break fixes a unique output. Spot-checked 'kbnaku'->'kkkkkk' (cost 32) and 'nrcgzb'->'nnnggg'.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3717": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification intact; all tests satisfy 2 <= k*x <= n and value ranges. Two-element x=2,k=1 cases equal |a-b|, which matches.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3725": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example explanation tables are flattened into one value per line, but they remain readable and the task statement is intact. Spot-checked [-19,-16],2=-105, [12,-15],2=-9, [-5,-4],2=-27.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3733": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Illustration images are missing (blank lines after the definition and in the examples), but the text plus the example coordinates fully pin down the clockwise turn mapping (down-right->down-left->up-left->up-right->down-right). Spot-checked several 2-row tests (=2, =3) and they are consistent.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3739": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The example explanations refer to arrangement illustrations that are missing, but the text and the arithmetic still specify the task fully. Spot-checks: (1,6,3)=35*C(4,1)=140, (5,1,4)=20*3=60, (2,2,3)=8*2=16.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3744": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Statement is intact. Spot-checks: [[17,18]]=ceil(6/2)=3, [[1,8]]=ceil(13/2)=7, [[999999999,1000000000]]=15. All inputs satisfy l<r.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3762": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The move tables in the examples are flattened. The i in 'add points[i]' means the new index, which the examples make clear. Spot-checks: [6,8],5 gives 16; [1,4],9 gives 5; [19,12],1 gives 0. All inputs have n>=2.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3765": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "The cost formula with prefix sums is intact and the examples are consistent. Spot-checks: [1,1],[1000,1],1 gives 2004; [1,1],[1,1],1000 gives 2004.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3770": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The example table is flattened. The alphabet of word is only implied to be lowercase letters (Example 3 fixes it). Spot-checks: 'FTFF','uyv' gives 'auyvaa'; 'TT','xwuwy' gives ''.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3777": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Statement is intact. All inputs are within limits: length<=150, values 0..12, limit<=5000. Spot-checks: [11],11,10 gives -1; [0],0,10 gives 0.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3781": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The example explanation images are missing, and the distance definition says 'cells'; both are cosmetic. Every test point lies on the boundary and is unique, with 4<=len<=4*side and k=4. Spot-checks: side 50 gives 12; side 5000 gives 999.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3783": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Statement is intact. For n=20 the count is 2*10!^2=26336378880000, so k=count+1 correctly gives []. For (25,1e15) the prefix 1,2,3,16 checks out by counting.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3784": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification is complete: for each i, the max LCP length over any k distinct-index strings of the remaining array, 0 if fewer than k remain. All visible inputs satisfy 1 <= k <= len(words), lowercase, non-empty strings. Spot-checked the k=1 cases (e.g. the only length-5 word at index 4 gives answer 4 there), the k=3 'd' prefix case [0,0,0,1,1,1,1] and the k=2 case ending in 1,1; all match.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3789": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear specification: pairs are unordered (both elements must be present), remove exactly one pair, maximize the count of valid subarrays. All visible inputs satisfy n in [2,1e5], 1 <= len <= 2n, values in [1,n], a != b. Spot-checked (10,[[5,7],[6,5]])=35, (10,[[2,10],[5,7]])=53, (100000,[[1,2]])=n(n+1)/2=5000050000 and example 2 = 12; all match.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbhard_3801": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Well-defined count. A product of 0 counts as divisible, and example 1 (10 and 20 are beautiful) confirms this. All visible inputs satisfy 1 <= l <= r < 10^9, including (1, 999999999). Spot-checked (14,17)=0, (8,13)=3, (9,10)=2, (2,7)=6, (4,4)=1; all match.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2728": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Tie choice does not affect the score; spot-checked [[4,14,13,4],[4,21,14,1]]->43 and [[40,655,363],[554,396,682]]->1632. Values within 0..1000.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2730": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear; spot-checked [7],2->28 and [3761],12->15405056. All inputs within constraints (k in 1..15, values 1..1e9).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2754": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "A stray zero-width character in 'nums[i_k]' is cosmetic only; the spec is intact.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2755": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2779": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2786": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The example explanation has the typo 'semi-reptitive'. The definition and examples are intact.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2792": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2802": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2810": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The example explanation has the stray formatting typo '2^nd^'. The operation and cost rules are intact.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2811": {
+  "bad_assert_note": "k = 89 violates the stated constraint 1 <= n, k <= 50.",
+  "bad_asserts": [
+   "assert candidate(45, 89) == 1079"
+  ],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbmed_2817": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Both operations, their costs and the goal are fully specified; all test inputs are binary strings with length >= 1. Spot-checked '1101' -> 3 and '011' -> 1.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2828": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "The operation (applied exactly once, with a->z wraparound) and the lexicographic order are fully defined; the lexicographically smallest result is unique. All test inputs are lowercase strings with length >= 1.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2832": {
+  "bad_assert_note": "[8] has length 1, but 8 > 1 breaks nums[i] <= nums.length. [1,1,5,3] has length 4, but 5 > 4 breaks nums[i] <= nums.length. [4] has length 1, but 4 > 1 breaks nums[i] <= nums.length. The 9-element array contains 10 > 9, which breaks nums[i] <= nums.length. The 7-element array [10,8,9,4,4,5,1] contains 10 > 7, which breaks nums[i] <= nums.length. The 7-element array [4,3,6,8,10,1,10] contains 8 and 10 > 7, which breaks nums[i] <= nums.length. A solver that relies on the constraint and uses an array indexed by value would fail all six.",
+  "bad_asserts": [
+   "assert candidate([8], 1) == 1",
+   "assert candidate([1, 1, 5, 3], 3) == 2",
+   "assert candidate([4], 1) == 1",
+   "assert candidate([3, 8, 10, 8, 5, 3, 3, 9, 9], 6) == 3",
+   "assert candidate([10, 8, 9, 4, 4, 5, 1], 7) == 2",
+   "assert candidate([4, 3, 6, 8, 10, 1, 10], 1) == 2"
+  ],
+  "statement_defect": "none",
+  "statement_note": "The specification is complete. Several added tests break the constraint 1 <= nums[i] <= nums.length.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbmed_2833": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "The inclusive interval semantics are clear. Every test meets x < queries[i], 1 <= server_id <= n and the other bounds. Spot-checked the added tests: [9,9,9,9], [7], [0,0], [5,7,7,7] and [2,2,2,2,2,2,1] all match.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2834": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "The output is the sorted list of occupied positions, which is unique. Traced all three added tests: every move has a marble at moveFrom[i] when it is applied, and the expected outputs match.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2837": {
+  "bad_assert_note": "num1 = 2^56 breaks the constraint num1 <= 10^9. num1 = 2^57 breaks the constraint num1 <= 10^9. num1 = 2^60 breaks the constraint num1 <= 10^9. A solver that bounds its search by the stated input range could fairly fail all three.",
+  "bad_asserts": [
+   "assert candidate(72057594037927936, 861305832) == 32",
+   "assert candidate(144115188075855872, -764496824) == 13",
+   "assert candidate(1152921504606846976, -1000000000) == 13"
+  ],
+  "statement_defect": "none",
+  "statement_note": "The operation, the range of i and the -1 case are clearly specified. Three added tests use num1 far above the stated bound of 1 <= num1 <= 10^9.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbmed_2845": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "The task asks for the minimum of a well-defined value, so the answer is unique. All tests have length >= 2 and positive values. Spot-checked [70,48,1] -> 22 and [83,42,77] -> 6.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2848": {
+  "bad_assert_note": "Elements 1000000070 through 1400000098 exceed the stated bound nums[i] <= 10^9.",
+  "bad_asserts": [
+   "assert candidate([100000007, 200000014, 300000021, 400000028, 500000035, 600000042, 700000049, 800000056, 900000063, 1000000070, 1100000077, 1200000084, 1300000091, 1400000098]) == 0"
+  ],
+  "statement_defect": "none",
+  "statement_note": "The count of special permutations mod 1e9+7 is fully specified. Every test has distinct values and length 2 to 14. The last test breaks the value bound.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbmed_2850": {
+  "bad_assert_note": "z = 0 violates the stated constraint 1 <= x, y, z <= 50.",
+  "bad_asserts": [
+   "assert candidate(1, 50, 0) == 6"
+  ],
+  "statement_defect": "minor",
+  "statement_note": "Only cosmetic typos ('concactenate'); the specification is intact.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbmed_2854": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Subscripts are flattened ('str_i - 1', 'str_n - 1' for str_{i-1}, str_{n-1}), but the literal reading is meaningless and the examples (str_0..str_2 for n=3) make the intended meaning unambiguous.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2855": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2856": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2867": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2868": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Flattened subscripts (i_1, i_2) and a stray 'j_' plus typos ('Thereare', 'subarrys'); the condition max-min <= 2 over the subarray remains clear.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2869": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2872": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2873": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification is complete; pairs are fully determined and the order is fixed by increasing x.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2877": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Ties are broken by the lexicographic rule over minimum-length strings, so the answer is unique; the spot-checked outputs (dox, ejvpmg, hchdlhiv) agree.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2878": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Boolean answer, spec intact; every test satisfies 1 <= k <= len and 0 <= nums[i] <= 10^6.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2882": {
+  "bad_assert_note": "n = 345 breaks the stated constraint 1 <= n <= 300, so a solver that sizes its DP to the constraints could fairly fail.",
+  "bad_asserts": [
+   "assert candidate(345, 1) == 862028426"
+  ],
+  "statement_defect": "minor",
+  "statement_note": "Superscripts are flattened to x^th / 2^nd but stay readable; the specification is intact.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbmed_2883": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Typo 'paritition' in the example explanations; the spec is otherwise intact.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2887": {
+  "bad_assert_note": "The empty string breaks the stated constraint 1 <= s.length <= 10^5.",
+  "bad_asserts": [
+   "assert candidate('') == ''"
+  ],
+  "statement_defect": "none",
+  "statement_note": "Spec is complete; the ACOOAAUI -> ACAAIOOU spot check agrees.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbmed_2888": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Spec is complete; every visible input has exactly one dominant element and values within 1..10^9. Spot-checked splits (0, 2, -1) agree.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2891": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Spec is complete; all inputs fit 0 <= nums[i], k <= 10^5. Spot checks ([2,10],4 -> 2; [43,...],3 -> 2; [56,...],37 -> 4) agree.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2893": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2915": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2916": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2920": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2953": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example 2 explanation says 'ways to choose two pairs' where it means two points; the subscripts are written both as x_1 and x1. Both are cosmetic and the formula is intact.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_2954": {
+  "bad_assert_note": "m=2 > k=1 violates the stated constraint 1 <= m <= k <= nums.length.",
+  "bad_asserts": [
+   "assert candidate([41, 37, 91, 3], 2, 1) == 0"
+  ],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbmed_2979": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3000": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "With x=0 the formal condition abs(i - j) >= x allows i == j. The constraints also allow n=1 with x=0, which only works if i == j is allowed, so expected values of 0 for x=0 follow from the text.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3018": {
+  "bad_assert_note": "str2 is empty, which violates the stated constraint 1 <= str2.length.",
+  "bad_asserts": [
+   "assert candidate('a', '') == True"
+  ],
+  "statement_defect": "none",
+  "statement_note": "Specification is complete and consistent with the examples.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbmed_3026": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification is complete; spot-checked (43,3)->988 and (2,1)->3.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3033": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification is complete; small cases such as ('101','000',10)->2 and ('110','100',5)->-1 agree with the text.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3046": {
+  "bad_assert_note": "The input string is 101 characters long, which violates the stated constraint 1 <= num.length <= 100.",
+  "bad_asserts": [
+   "assert candidate('10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000025') == 0"
+  ],
+  "statement_defect": "none",
+  "statement_note": "Specification is complete, including the rule that deleting every digit leaves 0.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbmed_3080": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification is complete; spot-checked [0,9,1,3]->1 and [56,7]->1.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3081": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification is complete; all test inputs are sorted and within range.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3094": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification is complete; all inputs meet length >= 2 and value bounds.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3104": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification is complete; all inputs satisfy 0 <= nums[i] < n; spot-checked [0]->1, [1,1,2]->2 and [1,2,2,0,0]->1.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3106": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete; all visible inputs within constraints (values and target <= 1000).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3114": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Constraint line reads '1 <= n == maxHeights <= 10^3' (missing '.length'); intent is clear and the specification is otherwise intact.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3141": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete; spot-checked [1,5],11 -> 3 (5+1+5).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3150": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example explanations lost their highlighting, so the listed beautiful substrings all print as the full string; the rule itself is fully stated.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3151": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete; all tests satisfy tasks.length == 4n and value ranges (processorTime 0 is allowed).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3166": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete; spot-checked [2,4,4,4,2] -> 2 and [3,3,6,7] -> 3.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3171": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Opening line says arrays consist of positive integers, yet the problem and constraints (0 <= nums[i]) rely on zeros; this is the original wording and the intent is unambiguous.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3174": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete; all test strings have even length and are binary; spot-checked pair-mismatch counts.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3190": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear statement; all test inputs respect n<=1000 and 1<=values<=1e9. Spot-checked [41,16],[78,2] -> -1 and [49,16,73],[46,60,89] -> 0.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3192": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Well specified (maximum taken before modulo). All a,b < 2^50 and n <= 50. Spot-checked (1,0,1)->0, (0,12,1)->13, (13,30,1)->390.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3195": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear statement; all inputs are binary strings of valid length. Spot-checked '10100'->5 and '01010'->3.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3200": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear counting problem with modulus; all n within 1..1e5. n<4 -> 0 consistent with statement.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3209": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Cosmetic superscript garbling in an explanation ('4^t^h'); rule is intact. Inputs within constraints. Spot-checked [75,66,23,67]->98 and [34,66,37,60]->71.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3210": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example 1 explanation lost substring highlighting (shows 'baeyh' each time) and has a quote typo [\"a\",e\"], but the following lines name the substrings ('aeyh','baey'), so the spec is intact. Inputs within constraints; spot-checked ('iczan',4)->1.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3213": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear: counts subarrays where the global max of nums appears at least k times. All inputs within constraints. Spot-checked k=1 cases -> 28 and 10.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3219": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Lexicographically smallest reachable array is unique; inputs within constraints. Spot-checked [6,79,84,2,29,30,33], limit 36 -> [2,79,84,6,29,30,33].",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3225": {
+  "bad_assert_note": "k = 10 exceeds nums.length = 2, violating the stated constraint 1 <= k <= nums.length.",
+  "bad_asserts": [
+   "assert candidate([27, 11], 10) == 2"
+  ],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbmed_3228": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3229": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3230": {
+  "bad_assert_note": "The empty string violates the stated constraint 1 <= word.length <= 100.",
+  "bad_asserts": [
+   "assert candidate('') == 0"
+  ],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbmed_3231": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3234": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The docstring says to return good indices 'in any order', so several lists are acceptable, but the asserts compare with == against one specific ordering. The formula also has flattened subscripts ('a_i^bi', '^ci'), though the examples keep the meaning clear.",
+  "unique_answer": false,
+  "verdict": "drop"
+ },
+ "lcbmed_3235": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3239": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3240": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "'even^th' is a superscript flattened in the example explanation; the definition of price, the 1-indexed right-to-left bit order and the constraints are intact. Spot-checked (9,6)->40 and (1,8)->128.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3244": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "The operation and the goal are fully specified. Every test input satisfies the length and value bounds.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3245": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "The definition and the sorted output order are clear. The 100-char test strings satisfy k <= len(s), for example len=100 with k=100. Spot-checked the 'w'/'t' k=1 case -> [68,75].",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3249": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear spec. All nums and k values are within 10^6. Spot-checked [10],3 -> 2.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3262": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The subscript in 'a_k-1' is flattened (meaning a_{k-1}) but reads unambiguously. All tests have n >= 3 and values in range. Spot-checked [10,2,1,2] -> 5.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3264": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Only blank-line formatting damage; both operations and the marking rule are intact. All inputs are within the constraints (currentEnergy <= 1e9, energies >= 1). Spot-checked [10,10,10,10],40 -> 7 and [5,10,20],10 -> 8.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3265": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear spec, including returning 0 when no good subarray exists and a negative maximum otherwise. All values and k are within bounds. Spot-checked [5,-1,-5,-3,7],8 -> -2.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3267": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear spec. The long test strings are 50 characters, which fits 3 <= len <= 50 (run lengths agree with the expected answers 17, 31 and 18). Spot-checked 'wqtax...dpe' -> 1.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3269": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear spec; all visible inputs satisfy 2<=n<=100, 1<=m<n and pattern values in {-1,0,1}. Spot-checked [73,26,7,20,30,48,97],[-1,1] -> 1.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3279": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Game rules are complete (Alice wins iff x+y is odd). Spot-checked (3,2)->3, (5,5)->12, (100000,100000)->5e9. All inputs within 1..1e5.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3291": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Spec intact; all values <= 2^8=256 and lengths >= 1. Spot-checked [9,148,121] -> False (popcounts 2,3,5 form fixed blocks, 148>121).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3292": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Spec complete; all changeIndices values are within [1,n] and sizes are small. Spot-checked [3,0] with the 14-length changeIndices -> 5.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3297": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Spec clear; all words are lowercase and at most 50 characters (the 'v' string is exactly 50), and 1<=k<=len. Spot-checked 'jmoz',3 -> 2 and the 50-char string with k=44 -> 2.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3299": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Superscripts are flattened ('x^k/2' means x^(k/2)), but the worked examples [2,4,16,4,2] and [3,9,3] make the intended pattern unambiguous. All inputs have length >= 2 and values in range.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3306": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The explanation of Example 1 lost the bold/underline that showed which elements were marked, so its 'marked elements now are nums = [...]' lines are cosmetic noise. The rules themselves are intact. All visible queries respect m<=n and 0<=index_i,k_i<=n-1.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3308": {
+  "bad_assert_note": "The empty string violates the stated constraint 1 <= s.length, and with zero operations the answer is undefined.",
+  "bad_asserts": [
+   "assert candidate('') == ''"
+  ],
+  "statement_defect": "minor",
+  "statement_note": "The worked example says 'Remove the underlined characters' but the underlining is lost. The rule is still fully stated in the text, and the results ('abbca', 'ba', '') pin it down.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbmed_3317": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Statement, examples and constraints intact; spot-checked ['jd','vmr'] -> 0 and ['b','yh','biqd','somxlnnyhs'] -> 3 (5 pairs available, words need 0,1,2,5 pairs).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3328": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear; spot-checked k=2 -> 1, k=4 -> 2, k=41 -> 11.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3329": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear; constraint line says arr2[i] instead of arr2[j], harmless. All test values within 1..10^8; spot-checked [25,26],[65,22] -> 1.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3337": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example 1 explanation lists \"abada\" six times because the highlighting that marked each substring was lost; the specification itself is intact. Spot-checked the long 'u' test (3 u's -> 6) and 'x' test (50 x's -> 1275).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3346": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Cyclic distance and lexicographically smallest t are well defined; spot-checked 'x',1 -> 'w', 'a',26 -> 'a', 'xxzyxxxzyz',1 -> 'wxzyxxxzyz'. All inputs within constraints.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3351": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear; spot-checked [2,23,97],2 -> 97+22=119. Inputs within constraints.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3354": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Lexicographic tie-break makes the answer unique; spot-checked '?fbvzwnll?' -> 'afbvzwnllc' (a and c are the unused smallest letters, placed in sorted order).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3355": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear; all inputs have n >= 2 and binary values. Spot-checked [0,1] -> -1, [1,0] -> 1, [1,1,1,0,1,1] -> 3, [0,1,1,0,1] -> 3.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3356": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete; ties broken lexicographically, empty string when none exists.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3360": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete and consistent with examples.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3363": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete; all visible inputs keep counts non-negative as required.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3373": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete; every visible input contains at least one prime.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3374": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3384": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example 2's operations table is flattened into loose lines (and curly quotes appear in the k-periodic example); the rule and answer remain fully specified. Checked that every visible word length is divisible by k (the 100-char strings with k=50/100 are exactly 100 chars).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3387": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Median definition (larger of two middles) is explicit; 'non-negative k' vs constraint 1 <= k is harmless.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3394": {
+  "bad_assert_note": "x = 1073741823 exceeds the stated bound x <= 10^8. x = 1073741824 exceeds the stated bound x <= 10^8. x = 1073741824 exceeds the stated bound x <= 10^8.",
+  "bad_asserts": [
+   "assert candidate(100000, 1073741823) == 107374182399999",
+   "assert candidate(100000000, 1073741824) == 1173741823",
+   "assert candidate(100000, 1073741824) == 1073841823"
+  ],
+  "statement_defect": "none",
+  "statement_note": "Specification complete; constraint is 1 <= n, x <= 10^8.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbmed_3395": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Statement, examples and constraints intact; checked 'abbaacca'->8 and 'aaabbaabbaaa'->6 by hand.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3403": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "'The unbalanced substrings are bolded' refers to lost bold formatting, and the example explanation has a quote typo (\"fab, ...); the definition of balanced and the task remain fully specified. Checked 'qkxqeflf'->3.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3406": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Parameter names lost their code formatting, so 'exactly zero'/'exactly one' reads oddly, but the examples make clear they mean the parameters zero and one. All test inputs fall within 1..200.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3413": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Intact. All test arrays have unique values <= 10^6, n >= 2 and k <= 10^9; checked [8,9,7,19,11],k=3->3 and [11,12,6,1,9,2,10,14],k=4->1.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3416": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Intact. Every test array has equal digit counts; checked [50,28,48]->5 and [1,5,2,9]->6.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3420": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Ordinal superscripts are flattened to '^th'/'^st', which is cosmetic. All test values are within the constraints.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3422": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The example state tables are flattened into loose lines but stay readable; the update rule is given in the text. Checked (2,2)->3 and (2,3)->4.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3430": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Only the ordinal superscripts are flattened ('4^th'). Every meeting satisfies 1 <= start <= end <= days; checked several, e.g. (14,...)->5 and (9,...)->3.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3437": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification and examples are intact; all visible inputs satisfy the constraints.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3442": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification intact; all visible inputs are within length and value bounds (1..2000).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3451": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Compression algorithm fully specified; all test inputs are lowercase and within length bounds.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3453": {
+  "bad_assert_note": "n=3: exact list order is required although the docstring allows any order. n=1: same order dependence. n=5: same order dependence. n=2: same order dependence. n=4: same order dependence.",
+  "bad_asserts": [
+   "assert candidate(3) == ['010', '011', '101', '110', '111']",
+   "assert candidate(1) == ['0', '1']",
+   "assert candidate(5) == ['01010', '01011', '01101', '01110', '01111', '10101', '10110', '10111', '11010', '11011', '11101', '11110', '11111']",
+   "assert candidate(2) == ['01', '10', '11']",
+   "assert candidate(4) == ['0101', '0110', '0111', '1010', '1011', '1101', '1110', '1111']"
+  ],
+  "statement_defect": "none",
+  "statement_note": "Docstring says to return all valid strings 'in any order', but the tests compare exact lists in lexicographic order, so many correct return values exist.",
+  "unique_answer": false,
+  "verdict": "drop"
+ },
+ "lcbmed_3455": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Operation and examples are consistent (checked Example 1 steps); all inputs are lowercase and within bounds.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3456": {
+  "bad_assert_note": "The input contains 0, which violates the constraint 1 <= nums[i] <= 10^9.",
+  "bad_asserts": [
+   "assert candidate([0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 1) == 2"
+  ],
+  "statement_defect": "minor",
+  "statement_note": "The example explanations list the whole array as the 'maximum length subsequence' because the original highlighting of the chosen elements was lost; the definition and the expected outputs are still clear.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbmed_3461": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The example explanations refer to illustrations that are missing, but the text fully specifies the problem.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3462": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example 1 refers to an 'underlined substring' whose underlining was lost; the rules and the expected result are unaffected. All inputs are lowercase and within bounds.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3464": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Superscript/subscript grouping is flattened: '(−1)^r − l' should be (−1)^(r−l) and 'i_k − 1' should be i_{k−1}. The alternating pattern 'nums[l] - nums[l + 1] + ...' and Example 1 (the subarray [4] at odd index 3 costs +4) make the intended sign rule clear, so the spec still holds.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3475": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear statement. All test inputs are binary with length >= 3. Spot-checked [1,0,0] -> -1, [0,1,1,0,1,0,0] -> -1 and [1,0,1,1,0,1,1,1] -> 2.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3479": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The example explanation tables are flattened into one value per line. The definition (ones >= zeros^2) is intact. Spot-checked '001' -> 2, '010' -> 3 and '0010' -> 3.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3485": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear statement. All inputs are within the constraints (length >= 2, values and d in [0, 1e9]). Spot-checked [10,10,6],d=4 -> 4, [5,10],d=10 -> 15 and the ten-element d=1e9 case -> 111111112.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3487": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear statement. All tests meet the constraints: pattern is a subsequence of source, and targetIndices are sorted, distinct and in range. Spot-checked 'dyk','d',[0] -> 0 and 'dd','d',[0] -> 1.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3490": {
+  "bad_assert_note": "The input contains 0, which violates the stated constraint 1 <= nums[i] <= 10^7. The input contains 0, which violates the stated constraint 1 <= nums[i] <= 10^7.",
+  "bad_asserts": [
+   "assert candidate([0, 17, 3, 13, 15, 11, 7, 1, 5, 9]) == 9",
+   "assert candidate([0, 3]) == 2"
+  ],
+  "statement_defect": "none",
+  "statement_note": "Clear statement. Spot-checked [68,95,89,8,49,4,15,18] -> 7 (alternating parity) and the large-value case -> 7.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbmed_3492": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The Example 1 explanation (an image) is missing. 'Contain grid[0][0]' still fixes the task as counting prefix submatrices anchored at (0,0); Example 1 -> 3 checks out under that reading. Spot-checked [['Y','.'],['X','.']] -> 2 and [['X','.'],['Y','Y']] -> 1.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3493": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear statement with a worked example. All tests are binary strings of valid length. Spot-checked '110' -> 2, '101001' -> 3 and '10111' -> 1.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3494": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Cake-cutting spec and examples intact; all test array lengths match m-1/n-1 and costs are within 1..1000.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3495": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Return sentence says 'results[i] denotes the k^th nearest obstacle' omitting 'distance of', but the preceding sentence and examples make clear the Manhattan distance is returned; all inputs within constraints.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3496": {
+  "bad_assert_note": "workerTimes contains 1594323 and 4782969, which exceed the stated constraint workerTimes[i] <= 10^6.",
+  "bad_asserts": [
+   "assert candidate(100000, [3, 9, 27, 81, 243, 729, 2187, 6561, 19683, 59049, 177147, 531441, 1594323, 4782969]) == 2682744624"
+  ],
+  "statement_defect": "none",
+  "statement_note": "Spec intact; one visible test uses worker times above the stated 10^6 bound.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbmed_3498": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Condition is written with 'a[i]' instead of 'nums[i]' (original wording); meaning is clear. All test arrays have even length and values within [0, k].",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3502": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Spec intact; all inputs lowercase with k <= len(s); spot-checked 'a'*100 cases and 'qkfiuuhd'.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3507": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Special numbers (squares of primes) fully defined; all ranges within 1..10^9; spot-checked several small cases.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3510": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Spec intact; inputs within constraints; spot-checked -1 and sum cases.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3517": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Spec intact; every query satisfies 0 <= u < v < n, v - u > 1, no repeats; spot-checked the n=10 case.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3518": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete; all test inputs satisfy a.length==4, b.length>=4 and value bounds; spot-checked [3,4,4,-7]/[9,5,2,-7]=104 and [-2,8,0,6]/[8,4,5,-10,-10]=-28.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3522": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Consecutive-and-ascending rule is clear and pinned by example 2 (equal values are not consecutive); all inputs within n<=500, 1<=nums[i]<=1e5, k<=n; spot-checked k=5 case giving [-1,-1,-1,8,9,10].",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3525": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete; all tests have n>=3 and values in [1,1e5]; spot-checked [10000,1,10000]/[1,1,1]=20001.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3526": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example explanations refer to 'highlighted cells' from a missing illustration; the rule and outputs remain fully specified. All inputs binary with m*n>=1; spot-checked [[0,1],[1,1]]=1.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3528": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete; single-element inputs (n=1 allowed by constraints) naturally give 0 since no jump is needed; spot-checked [1000..10000]=45000 and [2,7]=2.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3534": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete with leading-zero note; all inputs within 2<=len<=100 and 1<=nums[i]<=1e6; spot-checked [15,51,5,15,4]=3 and [2,13,14,10,12,2,18]=1.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3540": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete; checked lengths divisible by k for k=38 (len 76), k=25 (len 100), k=9 (len 45), k=5, k=2; spot-checked 'azaz...' k=25 giving 'onon'.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3541": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete; counting message elements (duplicates count separately) is the plain reading of 'at least two words in it'; all words lowercase, length 1..15.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3558": {
+  "bad_assert_note": "The grid is 3x2, so m + n = 5, and health = 8 breaks the stated constraint 1 <= health <= m + n.",
+  "bad_asserts": [
+   "assert candidate([[0, 0], [0, 0], [1, 1]], 8) == True"
+  ],
+  "statement_defect": "minor",
+  "statement_note": "Examples 1 and 3 refer to 'gray cells below' from a missing illustration; Example 3's text still makes clear that the start cell counts toward health loss, so the specification is intact.",
+  "unique_answer": true,
+  "verdict": "keep_without_bad_asserts"
+ },
+ "lcbmed_3559": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3566": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "The minimum-press sequence is forced: each character has to be finished before the next key-1 press, so the order of screen strings is unique.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3570": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3573": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3579": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3584": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3587": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3593": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear definition of factor score (GCD*LCM), at most one removal, edge cases for single and empty arrays stated; spot-checked [4,11,24]->264, [5,10,30]->300, [2,16,18]->288.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3594": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Largest potential outlier is a single value; length-3 tests (one special = sum, other is outlier) are consistent with the definition and the guarantee that an outlier exists.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3607": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Proper divisor and operation defined clearly; spot-checked [8,6,8]->1, [9,2]->-1, [31,13]->-1 (prime divided by 1 stays unchanged).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3620": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Statement intact; all tests within constraints (k=0 allowed).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3622": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Statement intact (example explanations slightly terse but correct); spot-checked [1,90],76,1->1 and [67,80],48,1->2; all values within constraints including 100000.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3627": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Movement rule (can start moving into room (i,j) at time >= moveTime[i][j], 1 second per move) is clear from text and examples; spot-checked [[27,85],[22,53]]->54, [[0,38,10],[58,29,83]]->84, [[60,30],[70,13]]->32.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3629": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Transformation rules and modulus stated; spot-checked 'zz',7->4, 's',20->2, 'hy',8->3.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3634": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Mirror and closest-unmarked-index process fully specified; spot-checked 'nmc'->1, 'urgve'->1, 'igzrz'->3.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3639": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Complete and clear: answer is true iff each nums[i] <= number of queries covering i. All tests satisfy the constraints.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3647": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Well specified; spot-checked [1,2] case (=4), [0,3] case (=2) and [4,1] case (=-1). All inputs are within the constraints.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3649": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The example tables are flattened into one value per line, and the ordinals are garbled ('2^n^d', '3^r^d'). The rules are fully stated in prose. Checked by hand: [1e6]*8 with K=1 sums ceil(1e6/j) to 2717859, and [50,4] with K=6 gives 12.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3653": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear. k <= n holds in every test, and small cases check out by hand (e.g. [-7,-2], k=2 gives -9).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3654": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear, and the order of operations is covered by taking the minimum. Checked [10],k=3,op1=1,op2=1: halve then subtract gives 2. op1 and op2 never exceed nums.length.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3655": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Latent interpretation point. The text allows decreasing a leading 1 to 0, which leaves a shorter integer that can never get back to m's digit count. The judge follows this literal integer reading, so in effect the leading digit stays >= 1. Hand check: 1267->1167->1067->1077->2077->3077->3087->4087 = 16906, as expected. A fixed-width reading with leading zeros would allow a cheaper 0xxx route (16588 for that test) and fail several asserts. The literal text supports the judge, so this is not blocking. 36->50 = 353 and 52->15 = 246 also verified.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3657": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example 1 refers to a missing diagram, but the text and coordinates are enough. Every test has >= 3 non-overlapping rectangles inside the n x n grid. Checked the n=6 False case and several n=3 cases by grouping intervals.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3659": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Clear. Every grid value and every k is < 16. Single-row cases checked by hand (e.g. [[5,10,11,11,7,1]], k=9 gives 1).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3677": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Grid path DP with at most 2 neutralizations is fully specified; spot-checked [[-1,-1],[-1,-1]] -> -1 and [[-4]] -> 0. All inputs within constraints.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3681": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example illustrations missing, but the text explanations make the rule clear. All tests have 1-10 unique points with coordinates in 0..100; spot-checked 450, 52 and 4.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3683": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification is clear: the answer is the lexicographically largest substring of length at most n-numFriends+1, or the whole word when numFriends=1. Spot-checked 'ajbd',3 -> 'jb' and 'akcb',4 -> 'k'. All tests satisfy 1 <= numFriends <= len(word).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3686": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The docstring never says the three subarrays are non-empty (the usual subarray-definition footnote is gone), but example 2 (output 0) and example 1 settle it. Spot-checked [1,1,0,1,0] -> 3 and [1,1,1,0,1,0,0] -> 7.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3699": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The example illustration images are missing (blank lines), but the text still gives the index tuples and products. All tests have length 7-8 and positive values; spot-checked [5,15,2,19,20,2,50] -> 1 and [3,3,6,4,16,3,8] -> 1.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3714": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example 1's table is flattened to one value per line but is still readable. Example 3 shows that subsequences are counted by index. All tests satisfy k <= min(70, n).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3715": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Fully specified. Checked that every test's segments are non-overlapping and within bounds; spot-checked [[1,2,10],[4,5,20]],3 -> 40 and [[32,37,5]],16 -> 30.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3716": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "A lost subscript turns seq_{m-1} into 'seq_m - 1' in the formula, but the prose ('non-increasing absolute differences between consecutive elements') and the examples make the meaning clear. Spot-checked [9,9,7] -> 2 and [67,75,77,84] -> 3. All tests satisfy length >= 2 and values 1..300.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3720": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Illustrations for examples 1 and 3 are missing; the explanation text is still there, so the specification is intact. All test inputs satisfy the constraints: edges.length <= n(n-1)/2, threshold <= n-1, and parallel edges have distinct weights. Spot-checked expected values all match.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3721": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The constraint 'number of id<number> mentions in any MESSAGE event is between 1 and 100' literally conflicts with ALL/HERE messages, but this is inherited wording and the examples clarify it. Events are not given in timestamp order (for example the test with OFFLINE at 1 listed after the MESSAGE at 2). The statement still fixes the meaning by timestamps: offline lasts until t+60, and status changes come before messages at the same time. So a careful solver who processes events by time gets every expected value. All tests checked by hand against that reading.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3722": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "The task asks for exactly k subarrays, each of length >= m, and example 2 confirms that. Every test satisfies k <= floor(len/m) and m <= 3. Spot-checked -35, 26, 19, 34 and 18 by hand; all correct.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3737": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification is complete. All additional tests use n=2, which is even. For n=2 the answer reduces to the minimum of cost[0][i]+cost[1][j] with i != j; every expected value checked and correct.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3743": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Illustrations for examples 1 and 2 are missing; the explanation text and rules are intact. All tests satisfy the constraints: n >= 2, k <= n, meetings sorted and non-overlapping, all within eventTime. The expected values match the maximum sum of k+1 consecutive gaps for every test.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3748": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The explanation refers to black and blue arrows from a missing image. The worked example still makes clear which diagonals belong to which triangle and that sorting runs from top-left to bottom-right. All 2x2 test outputs checked: the main diagonal is sorted non-increasing and the off-diagonal cells are unchanged.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3750": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The illustration for example 1 is missing; the text and the 5->6->0->1 example define circular distance clearly. Every test has queries.length <= nums.length, query indices in range and values >= 1. Spot-checked two tests; both correct.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3751": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification is complete; x can be any integer. All tests have nums[i] and k in [1, 50]. Expected values checked for every small test (for example [1,1,5],3 -> 2 and [4,3],8 -> 1).",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3754": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "The position/distance table in Example 1's explanation is flattened into one cell per line. The rule, the examples and the constraints are intact.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3759": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3760": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3764": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3771": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3776": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3779": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3785": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "The text never says outright that copy holds integers. A finite count only makes sense with integers, and Example 2 confirms it, so the specification is intact.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3786": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification complete; all test inputs satisfy 1<=len<=200, 1<=k<=200 and lowercase letters. Spot-checked 'aut',3->2, 'gd',1->1, 'mda',18->3, 'qwr',11->3 using cyclic distance.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3791": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Deterministic greedy placement fully specified; all tests have equal-length arrays with values in range. Spot-checked [35,61],[76,56]->1, [96,27],[17,44]->1, [24,84],[16,35]->1.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3793": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Specification intact; all test strings are 1..30 lowercase letters (checked the longest ones, max 30). Spot-checked 'tn','but'->3 ('tut'), 'ukp','kr'->3 ('kpk'), 'ab','ba'->4.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3794": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Example 1 timing table is flattened into a column of numbers and there is a stray zero-width character; the rule (no waiting between wizards, each wizard one potion at a time, potions in order) is still clear from the text and the t=52 explanation. Spot-checked [2,10],[6,6]->132 and example 3 ->21.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3795": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Subset-decrement rule and k=0 allowance stated; all tests satisfy nums[i]<=1000, val in 1..10, valid l<=r<n. Spot-checked [3]->-1, [5]->7, [6]->5, [9]->6, [0]->0 via subset sums of prefixes.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3805": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "none",
+  "statement_note": "Trade rule with augmentation t='1'+s+'1' is fully stated and examples agree; all tests are binary strings of length >=1. Spot-checked '11010'->5, '0010'->4, '11000'->2, '1001'->2 under the literal rule.",
+  "unique_answer": true,
+  "verdict": "keep"
+ },
+ "lcbmed_3809": {
+  "bad_assert_note": "",
+  "bad_asserts": [],
+  "statement_defect": "minor",
+  "statement_note": "Graph illustrations for examples 1 and 2 are missing (text says 'has 3 connected components:' followed by nothing); the definition of intersect and edges is complete. All tests satisfy 1<=k<=m and values 1..100; spot-checked [[1,2,3,4],[1,2,6,7]],3->2.",
+  "unique_answer": true,
+  "verdict": "keep"
+ }
+}

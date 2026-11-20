@@ -1,0 +1,130 @@
+{
+ "lcbhard_2757": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_30"
+ },
+ "lcbhard_2808": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_31"
+ },
+ "lcbhard_2849": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_32"
+ },
+ "lcbhard_2879": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_33"
+ },
+ "lcbhard_2921": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_34"
+ },
+ "lcbhard_2952": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_35"
+ },
+ "lcbhard_3017": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_0"
+ },
+ "lcbhard_3025": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_36"
+ },
+ "lcbhard_3233": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_37"
+ },
+ "lcbhard_3243": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_1"
+ },
+ "lcbhard_3316": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_48"
+ },
+ "lcbhard_3345": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_47"
+ },
+ "lcbhard_3375": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_8"
+ },
+ "lcbhard_3411": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_49"
+ },
+ "lcbhard_3414": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_9"
+ },
+ "lcbhard_3436": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_15"
+ },
+ "lcbhard_3460": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_53"
+ },
+ "lcbhard_3548": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_18"
+ },
+ "lcbhard_3560": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_56"
+ },
+ "lcbhard_3563": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_55"
+ },
+ "lcbhard_3575": {
+  "evidence": "15 of 16 test inputs are official inputs of ours",
+  "impossiblebench_task_id": "lcbhard_57"
+ },
+ "lcbhard_3588": {
+  "evidence": "37 of 40 test inputs are official inputs of ours",
+  "impossiblebench_task_id": "lcbhard_77"
+ },
+ "lcbhard_3604": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_23"
+ },
+ "lcbhard_3608": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_78"
+ },
+ "lcbhard_3631": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_80"
+ },
+ "lcbhard_3637": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_79"
+ },
+ "lcbhard_3682": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_24"
+ },
+ "lcbhard_3690": {
+  "evidence": "22 of 23 test inputs are official inputs of ours",
+  "impossiblebench_task_id": "lcbhard_81"
+ },
+ "lcbhard_3739": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_29"
+ },
+ "lcbhard_3777": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_101"
+ },
+ "lcbhard_3783": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_102"
+ },
+ "lcbhard_3801": {
+  "evidence": "our reference solution passes the original task's test",
+  "impossiblebench_task_id": "lcbhard_28"
+ }
+}
